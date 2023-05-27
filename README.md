@@ -1,2 +1,175 @@
-# windows-apps
-List of useful apps for windows
+# Programs that are not available in scoop
+
+## Programming
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Visual Studio](https://visualstudio.microsoft.com/)
+* [Docker](https://www.docker.com/)
+
+# [Scoop](https://scoop.sh)
+
+## Installation
+
+```pwsh
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm get.scoop.sh | iex;
+```
+
+```pwsh
+scoop bucket add main; scoop bucket add extras; scoop bucket add versions; scoop bucket add games; scoop bucket add nerd-fonts; scoop bucket add nonportable;
+```
+
+## Gaming
+
+### [Epic Games Store](https://store.epicgames.com/)
+
+```pwsh
+scoop install games/epic-games-launcher
+```
+
+### [Steam](https://store.steampowered.com/)
+
+```pwsh
+scoop install versions/steam
+```
+
+### [Discord](https://discord.com/)
+
+```pwsh
+scoop install extras/discord
+```
+
+## Programming
+
+### [Git](https://git-scm.com/)
+
+```pwsh
+scoop install git
+```
+
+### [Notepad++](https://notepad-plus-plus.org/downloads/)
+
+```pwsh
+scoop install extras/notepadplusplus
+```
+
+### [Sublime Text](https://www.sublimetext.com/)
+
+```pwsh
+scoop install extras/sublime-text
+```
+
+### [Sublime Merge](https://www.sublimemerge.com/)
+
+```pwsh
+scoop install extras/sublime-merge
+```
+
+### [Code::Blocks](http://www.codeblocks.org/)
+
+```pwsh
+scoop install extras/codeblocks
+```
+
+### [PG Admin](https://www.pgadmin.org/)
+
+```pwsh
+scoop install nonportable/pgadmin4-np
+```
+
+### [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+
+```pwsh
+scoop install main/mysql-workbench
+```
+
+### [GNU Make](https://www.gnu.org/software/make/)
+
+```pwsh
+scoop install main/make
+```
+
+## Network
+
+### [ngrok](https://ngrok.com/)
+
+```pwsh
+scoop install main/ngrok
+```
+
+### [qBittorent](https://www.qbittorrent.org/)
+
+```pwsh
+scoop install extras/qbittorrent
+```
+
+### [Firefox](https://www.mozilla.org/en-US/firefox/)
+
+```pwsh
+scoop install extras/firefox
+```
+
+### [Google Chrome](https://www.google.com/chrome/)
+
+```pwsh
+scoop install extras/googlechrome
+```
+
+### [Opera](https://www.opera.com/)
+
+```pwsh
+scoop install extras/opera
+```
+
+### [Opera GX](https://www.opera.com/gx)
+
+```pwsh
+scoop install extras/opera-gx
+```
+
+## [Nerd Fonts](https://www.nerdfonts.com/)
+
+```pwsh
+scoop install nerd-fonts/JetBrainsMono-NF-Mono
+```
+
+```pwsh
+scoop install nerd-fonts/FiraCode-NF-Mono
+```
+
+## PowerShell
+
+### [Oh My Posh](https://ohmyposh.dev/)
+
+```pwsh
+scoop install main/oh-my-posh
+```
+
+### [PSReadLine](https://learn.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.3)
+
+```pwsh
+scoop install extras/psreadline
+```
+
+### [Terminal Icons](https://github.com/devblackops/Terminal-Icons)
+
+```pwsh
+scoop install extras/terminal-icons
+```
+
+### [Posh Git module](https://ohmyposh.dev/)
+
+```pwsh
+scoop install extras/posh-git
+```
+
+### [Posh Docker module](https://ohmyposh.dev/)
+
+```pwsh
+scoop install extras/posh-docker
+```
+
+### [PowerType](https://github.com/AnderssonPeter/PowerType)
+
+```pwsh
+Install-Module PowerType -AllowPrerelease # Not available in scoop
+```
