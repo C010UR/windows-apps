@@ -1,3 +1,7 @@
+# Windows apps
+
+I tried to only use [scoop](https://scoop.sh) / microsoft store. If software is not available in both cases i provided a link for download.
+
 # [Scoop](https://scoop.sh) apps
 
 ## Scoop installation
@@ -119,6 +123,22 @@ scoop install extras/opera
 scoop install extras/opera-gx
 ```
 
+## Drivers
+
+### [NVCleanstall](https://www.techpowerup.com/nvcleanstall/)
+
+```pwsh
+scoop install extras/nvcleanstall
+```
+
+## Optimizers
+
+### [ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)
+
+```pwsh
+scoop install extras/thisiswin11
+```
+
 ## [Nerd Fonts](https://www.nerdfonts.com/)
 
 ```pwsh
@@ -179,6 +199,21 @@ Install-Module PowerType -AllowPrerelease # Not available in scoop
 * [Visual Studio](https://visualstudio.microsoft.com/)
 * [Docker](https://www.docker.com/)
 * [Eclipse](https://www.eclipse.org/)
+
+## Drivers
+
+* [Ashampoo Driver Updater](https://www.ashampoo.com/en-us/driver-updater) ([nnmclub](https://nnmclub.to/forum/viewtopic.php?t=1594138))
+* [AMD Ryzen Master](https://www.amd.com/en/technologies/ryzen-master)
+* [Geforce Experience](https://www.nvidia.com/ru-ru/geforce/geforce-experience/)
+
+## Optimizers
+
+* [Ashampoo WinOptimizer](https://www.ashampoo.com/en-us/winoptimizer-26) ([nnmclub](https://nnmclub.to/forum/viewtopic.php?t=1615298))
+* [Ultimate Windows Tweaker](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
+
+## Other system software
+
+* [NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/)
 
 # Cursors
 
