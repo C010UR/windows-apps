@@ -12,11 +12,7 @@
 ## Installation
 
 ```pwsh
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm get.scoop.sh | iex;
-```
-
-```pwsh
-scoop bucket add main; scoop bucket add extras; scoop bucket add versions; scoop bucket add games; scoop bucket add nerd-fonts; scoop bucket add nonportable;
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm get.scoop.sh | iex; scoop install git; scoop bucket add main; scoop bucket add extras; scoop bucket add versions; scoop bucket add games; scoop bucket add nerd-fonts; scoop bucket add nonportable;
 ```
 
 ## Gaming
