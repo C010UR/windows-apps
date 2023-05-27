@@ -1,6 +1,6 @@
 # Windows apps
 
-I tried to only use [scoop](https://scoop.sh) / microsoft store. If software is not available in both cases i provided a link for download.
+I tried to only include installers from <img src="[image name](https://avatars.githubusercontent.com/u/16618068)" alt= "scoop logo" height="16">[scoop](https://scoop.sh) / microsoft store. If software is not available in both cases i provided a link for download.
 
 ## Scoop installation
 
