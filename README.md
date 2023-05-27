@@ -1,12 +1,3 @@
-# Programs that are not available in scoop
-
-## Programming
-
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Visual Studio](https://visualstudio.microsoft.com/)
-* [Docker](https://www.docker.com/)
-* [Eclipse](https://www.eclipse.org/)
-
 # [Scoop](https://scoop.sh)
 
 ## Installation
@@ -175,3 +166,16 @@ scoop install extras/posh-docker
 ```pwsh
 Install-Module PowerType -AllowPrerelease # Not available in scoop
 ```
+
+# Apps that are not available in scoop
+
+## Gaming
+
+* [x360ce](https://www.x360ce.com/)
+
+## Programming
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Visual Studio](https://visualstudio.microsoft.com/)
+* [Docker](https://www.docker.com/)
+* [Eclipse](https://www.eclipse.org/)
