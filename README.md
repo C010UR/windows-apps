@@ -1,6 +1,6 @@
-# [Scoop](https://scoop.sh)
+# [Scoop](https://scoop.sh) apps
 
-## Installation
+## Scoop installation
 
 ```pwsh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm get.scoop.sh | iex; scoop install git
@@ -179,3 +179,8 @@ Install-Module PowerType -AllowPrerelease # Not available in scoop
 * [Visual Studio](https://visualstudio.microsoft.com/)
 * [Docker](https://www.docker.com/)
 * [Eclipse](https://www.eclipse.org/)
+
+# Cursors
+
+* [Flickr](./cursors/Flickr.zip) ([webpage link](https://www.deviantart.com/alexgal23/art/Flickr-Cursors-721046420))
+* [Windows 11 themed](./cursors/Windows-11.zip) ([webpage link](https://www.deviantart.com/jepricreations/art/Windows-11-Cursors-Concept-v2-886489356))
