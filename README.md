@@ -9,6 +9,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm get.scoop.sh | iex; sco
 ```
 
 ### Buckets
+
 ```pwsh
 scoop bucket add main; scoop bucket add extras; scoop bucket add versions; scoop bucket add games; scoop bucket add nerd-fonts; scoop bucket add nonportable;
 ```
@@ -138,6 +139,15 @@ scoop install extras/opera-gx
 ```pwsh
 scoop install extras/nvcleanstall
 ```
+
+### [Visual C++ Redistributable Runtimes All-in-One](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+
+### [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
+
+### [DirectX](https://www.microsoft.com/en-us/download/details.aspx?id=35)
+
+### [Java](https://www.java.com/en/download/manual.jsp)
+
 
 ### [Ashampoo Driver Updater](https://www.ashampoo.com/en-us/driver-updater) ([nnmclub](https://nnmclub.to/forum/viewtopic.php?t=1594138))
 
