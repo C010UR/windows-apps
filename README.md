@@ -5,6 +5,7 @@
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Visual Studio](https://visualstudio.microsoft.com/)
 * [Docker](https://www.docker.com/)
+* [Eclipse](https://www.eclipse.org/)
 
 # [Scoop](https://scoop.sh)
 
