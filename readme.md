@@ -1,6 +1,6 @@
 # Windows apps
 
-I tried to use [scoop](https://scoop.sh) first, then [microsoft store](https://apps.microsoft.com/store/apps), if application is not available in scoop, then provide just a link or command, if application is not available in either application providers.
+I tried to use [scoop](https://scoop.sh) first,  then [microsoft store](https://apps.microsoft.com/store/apps),  if application is not available in scoop, then provide just a  link or command, if application is not available in either  application providers.
 
 ## [<img src="https://avatars.githubusercontent.com/u/16618068" alt="" style="height: 1.125rem;" /> Scoop](https://scoop.sh) installation
 
@@ -20,11 +20,15 @@ scoop bucket add main; scoop bucket add extras; scoop bucket add versions; scoop
 
 ### [<img src="https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico" alt="" style="height: 1rem;" /> Epic Games Store](https://store.epicgames.com)
 
+The Epic Games Store is a digital video game storefront.
+
 ```pwsh
 scoop install games/epic-games-launcher
 ```
 
 ### [<img src="https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico" alt="" style="height: 1rem;" /> Discord](https://discord.com)
+
+Discord is an American VoIP and instant messaging social platform.
 
 ```pwsh
 scoop install extras/discord
@@ -32,11 +36,17 @@ scoop install extras/discord
 
 ### [<img src="https://store.steampowered.com/favicon.ico" alt="" style="height: 1rem;" /> Steam](https://store.steampowered.com)
 
+Steam is a video game digital distribution service and storefront from Valve.
+
 ### [<img src="https://www.x360ce.com/favicon.x360ce.ico" alt="" style="height: 1rem;" /> x360ce](https://www.x360ce.com)
+
+Xbox 360 Controller Emulator allows your controller  (gamepad, joystick, steering wheel, pedals, etc.)  to function on your PC as an Xbox 360 controller.
 
 ## Programming
 
-### [<img src="https://www.pgadmin.org/static/COMPILED/assets/img/favicon.ico" alt="" style="height: 1rem;" /> PG Admin](https://www.pgadmin.org)
+### [<img src="https://www.pgadmin.org/static/COMPILED/assets/img/favicon.ico" alt="" style="height: 1rem;" /> pgAdmin](https://www.pgadmin.org)
+
+pgAdmin is the most popular and feature rich Open  Source administration and development platform for  PostgreSQL, the most advanced Open Source database  in the world.
 
 ```pwsh
 scoop install nonportable/pgadmin4-np
@@ -44,11 +54,15 @@ scoop install nonportable/pgadmin4-np
 
 ### [<img src="https://www.svgrepo.com/show/373848/mysql.svg" alt="" style="height: 1rem;" /> MySQL Workbench](https://dev.mysql.com/downloads/workbench)
 
+MySQL Workbench is a visual database design tool  that integrates SQL development, administration,  database design, creation and maintenance into a  single integrated development environment for the MySQL database system.
+
 ```pwsh
 scoop install main/mysql-workbench
 ```
 
 ### [<img src="https://www.gnu.org/graphics/heckert_gnu.transp.small.png" alt="" style="height: 1rem;" /> GNU Make](https://www.gnu.org/software/make)
+
+GNU Make is a tool which controls the generation  of executables and other non-source files of a  program from the program's source files.
 
 ```pwsh
 scoop install main/make
@@ -56,11 +70,15 @@ scoop install main/make
 
 ### [<img src="https://git-scm.com/favicon.ico" alt="" style="height: 1rem;" /> Git](https://git-scm.com)
 
+Git is a distributed version control  system that tracks changes in any set of  computer files, usually used for coordinating  work among programmers collaboratively  developing source code during software development.
+
 ```pwsh
 scoop install git
 ```
 
 ### [<img src="https://notepad-plus-plus.org/images/logo.svg" alt="" style="height: 1rem;" /> Notepad++](https://notepad-plus-plus.org/downloads)
+
+Notepad++ is a free (as in "free speech" and also  as in "free beer") source code editor and Notepad  replacement that supports several languages.
 
 ```pwsh
 scoop install extras/notepadplusplus
@@ -68,15 +86,23 @@ scoop install extras/notepadplusplus
 
 ### [<img src="https://www.codeblocks.org/images/logo160.png" alt="" style="height: 1rem;" /> Code::Blocks](http://www.codeblocks.org)
 
+Code::Blocks is a free, open-source cross-platform IDE that supports multiple compilers including GCC,  Clang and Visual C++.
+
 ```pwsh
 scoop install extras/codeblocks
 ```
 
 ### [<img src="https://www.docker.com/wp-content/uploads/2023/04/cropped-Docker-favicon-192x192.png" alt="" style="height: 1rem;" /> Docker](https://www.docker.com)
 
+Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
+
 ### [<img src="https://visualstudio.microsoft.com/wp-content/uploads/2022/11/vs-icon.svg" alt="" style="height: 1rem;" /> Visual Studio](https://visualstudio.microsoft.com)
 
+Visual Studio is an integrated development environment from Microsoft.
+
 ### [<img src="https://code.visualstudio.com/favicon.ico" alt="" style="height: 1rem;" /> Visual Studio Code](https://code.visualstudio.com)
+
+Visual Studio Code, also commonly referred to as  VS Code, is a source-code editor made by Microsoft  with the Electron Framework.
 
 ## Network
 
