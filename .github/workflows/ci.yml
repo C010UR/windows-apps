@@ -2,11 +2,7 @@ name: CI
 
 on:
   push:
-    paths:
-      - 'src/apps.yml'
   pull_request:
-    paths:
-      - 'src/apps.yml'
 
 jobs:
   build:
@@ -18,9 +14,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Filter files
+        id: changes
+        uses: dorny/paths-filter@v2
+        with:
+          filters: |
+            app:
+              - ./app.yml
+
+      - name: Lint app.yml
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: ./app.yml
+
       - name: Build
         shell: pwsh
-        run: ./.github/Inoke-BuildReadme.ps1
+        run: ./.github/Invoke-BuildReadme.ps1
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
