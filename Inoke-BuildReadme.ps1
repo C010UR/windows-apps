@@ -1,5 +1,7 @@
-$inputFilename = "./apps.yml"
-$outputFilename = "./readme.md"
+param (
+    [Parameter(Position = 0)][string]$inputFilename = "./apps.yml",
+    [Parameter(Position = 1)][string]$outputFilename = "./readme.md"
+)
 
 function Invoke-LoadModule ($m) {
 
