@@ -63,7 +63,7 @@ apps:
 
       - name: MySQL Workbench
         link: https://dev.mysql.com/downloads/workbench
-        logo: https://labs.mysql.com/common/themes/sakila/favicon.ico
+        logo: https://www.svgrepo.com/show/373848/mysql.svg # non-origin icon
         additional:
           scoop: main/mysql-workbench
 
@@ -158,7 +158,7 @@ apps:
 
       - name: Ryzen Master
         link: https://www.amd.com/en/technologies/ryzen-master
-        logo: https://www.svgrepo.com/show/303321/ryzen-logo.svg # non-default icon
+        logo: https://www.svgrepo.com/show/303321/ryzen-logo.svg # non-origin icon
 
       - name: Geforce Experience
         link: https://www.nvidia.com/ru-ru/geforce/geforce-experience
@@ -168,7 +168,7 @@ apps:
     apps:
       - name: ThisIsWin11
         link: https://github.com/builtbybel/ThisIsWin11
-        logo: https://www.builtbybel.com/images/about/favicon.png
+        logo: https://www.svgrepo.com/show/382713/windows-applications.svg # non-origin icon
         additional:
           scoop: extras/thisiswin11
 
