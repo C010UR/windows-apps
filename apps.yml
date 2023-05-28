@@ -156,7 +156,7 @@ apps:
           links:
             - name: NNM Club
               link: https://nnmclub.to/forum/viewtopic.php?t=1594138
-              logo: https://nnmstatic.win/forum/images/noavatar4.png
+              logo: https://nnmstatic.win/forum/image.php?link=http://funkyimg.com/i/2BJoQ.png
 
       - name: Ryzen Master
         link: https://www.amd.com/en/technologies/ryzen-master
@@ -181,7 +181,7 @@ apps:
           links:
             - name: NNM Club
               link: https://nnmclub.to/forum/viewtopic.php?t=1615298
-              logo: https://nnmstatic.win/forum/images/noavatar4.png
+              logo: https://nnmstatic.win/forum/image.php?link=http://funkyimg.com/i/2BJoQ.png
 
       - name: Ultimate Windows Tweaker
         link: https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10
