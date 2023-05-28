@@ -364,7 +364,7 @@ apps:
 
       - name: ClipDiary
         link: http://clipdiary.com/
-        logo: https://clipdiary.com/favicon.ico
+        logo: http://clipdiary.com/favicon.ico
         description: >-
           Clipdiary is a powerful clipboard manager, which records every piece of
           data that goes to the Windows clipboard, meaning that you can easily retrieve
@@ -438,7 +438,7 @@ apps:
 
       - name: DockerCompletion
         link: https://github.com/matt9ucci/DockerCompletion
-        logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_white_128.svg
+        logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg
         description: >-
           DockerCompletion for PowerShell.
         additional:

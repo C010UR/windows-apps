@@ -56,7 +56,7 @@ function Format-Link($obj, $nameField = "name", $logoField = "logo", $linkField 
     return $str
 }
 
-function Format-AppAdditions($obj) {
+function Format-AppAddition($obj) {
     $str = ""
 
     # Handle links
@@ -92,13 +92,13 @@ function Format-App($obj) {
     }
 
     if ($obj.ContainsKey("additional")) {
-        $str += Format-AppAdditions $obj.additional
+        $str += Format-AppAddition $obj.additional
     }
 
     return $str
 }
 
-function Format-CursorAdditions($obj) {
+function Format-CursorAddition($obj) {
     $str = ""
 
     # Handle file download
@@ -138,7 +138,7 @@ function Format-Cursor($obj) {
     $str = "## $(Format-Link $obj -imageSize 1.125)`n`n"
 
     if ($obj.ContainsKey("additional")) {
-        $str += Format-CursorAdditions $obj.additional
+        $str += Format-CursorAddition $obj.additional
     }
 
     return $str
@@ -148,7 +148,7 @@ if (!(Invoke-LoadModule "powershell-yaml")) {
     EXIT 1
 }
 
-# Get yaml 
+# Get yaml
 $yml = Get-Content $inputFilename | ConvertFrom-Yaml
 
 # Resulting string
@@ -185,7 +185,7 @@ $md += ($yml.apps | ForEach-Object {
         $str += ($_.apps
             | Sort-Object `
             @{Expression = { $_.additional.scoop }; Ascending = $false },
-            @{Expression = { $_.additional.links }; Ascending = $false }, 
+            @{Expression = { $_.additional.links }; Ascending = $false },
             "Name"
             | ForEach-Object { Format-App $_ }) -join ""
 
@@ -204,4 +204,4 @@ Out-File -FilePath $outputFilename -InputObject $md
 $text = [IO.File]::ReadAllText($outputFilename) -replace "`r`n", "`n"
 [IO.File]::WriteAllText($outputFilename, $text)
 
-Write-Host "`e[32m!`e[0m Done"
+Write-Output "`e[32m!`e[0m Done"
