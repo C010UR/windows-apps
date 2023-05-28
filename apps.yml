@@ -156,9 +156,9 @@ apps:
               link: https://nnmclub.to/forum/viewtopic.php?t=1594138
               logo: https://nnmclub.to/favicon.ico
 
-      - name: Ryzen master
+      - name: Ryzen Master
         link: https://www.amd.com/en/technologies/ryzen-master
-        logo: https://www.amd.com/themes/custom/amd/favicon.ico
+        logo: https://www.svgrepo.com/show/303321/ryzen-logo.svg # non-default icon
 
       - name: Geforce Experience
         link: https://www.nvidia.com/ru-ru/geforce/geforce-experience
