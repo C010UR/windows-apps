@@ -1,8 +1,12 @@
 %YAML 1.2
 ---
 header: "Windows apps"
-description: |
-  I tried to use [scoop](https://scoop.sh) first, then [microsoft store](https://apps.microsoft.com/store/apps), if application is not available in scoop, then provide just a link or command, if application is not available in either application providers.
+description: >-
+  I tried to use [scoop](https://scoop.sh) first, 
+  then [microsoft store](https://apps.microsoft.com/store/apps), 
+  if application is not available in scoop, then provide just a 
+  link or command, if application is not available in either 
+  application providers.
 scoopInstallation:
   link: https://scoop.sh
   logo: https://avatars.githubusercontent.com/u/16618068
@@ -20,72 +24,117 @@ apps:
       - name: Epic Games Store
         link: https://store.epicgames.com
         logo: https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico
+        description: The Epic Games Store is a digital video game storefront.
         additional:
           scoop: games/epic-games-launcher
 
       - name: Steam
         link: https://store.steampowered.com
         logo: https://store.steampowered.com/favicon.ico
+        description: Steam is a video game digital distribution service and storefront from Valve.
 
       - name: Discord
         link: https://discord.com
         logo: https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico
+        description: Discord is an American VoIP and instant messaging social platform.
         additional:
           scoop: extras/discord
 
       - name: x360ce
         link: https://www.x360ce.com
         logo: https://www.x360ce.com/favicon.x360ce.ico
+        description: >-
+          Xbox 360 Controller Emulator allows your controller 
+          (gamepad, joystick, steering wheel, pedals, etc.) 
+          to function on your PC as an Xbox 360 controller.
 
   - category: Programming
     apps:
       - name: Git
         link: https://git-scm.com
         logo: https://git-scm.com/favicon.ico
+        description: >-
+          Git is a distributed version control 
+          system that tracks changes in any set of 
+          computer files, usually used for coordinating 
+          work among programmers collaboratively 
+          developing source code during software development.
         additional:
           scoop: git
 
       - name: Notepad++
         link: https://notepad-plus-plus.org/downloads
         logo: https://notepad-plus-plus.org/images/logo.svg
+        description: >-
+          Notepad++ is a free (as in "free speech" and also 
+          as in "free beer") source code editor and Notepad 
+          replacement that supports several languages.
         additional:
           scoop: extras/notepadplusplus
 
       - name: Code::Blocks
         link: http://www.codeblocks.org
         logo: https://www.codeblocks.org/images/logo160.png
+        description: >-
+          Code::Blocks is a free, open-source cross-platform
+          IDE that supports multiple compilers including GCC, 
+          Clang and Visual C++.
         additional:
           scoop: extras/codeblocks
 
-      - name: PG Admin
+      - name: pgAdmin
         link: https://www.pgadmin.org
         logo: https://www.pgadmin.org/static/COMPILED/assets/img/favicon.ico
+        description: >-
+          pgAdmin is the most popular and feature rich Open 
+          Source administration and development platform for 
+          PostgreSQL, the most advanced Open Source database 
+          in the world.
         additional:
           scoop: nonportable/pgadmin4-np
 
       - name: MySQL Workbench
         link: https://dev.mysql.com/downloads/workbench
         logo: https://www.svgrepo.com/show/373848/mysql.svg # non-origin icon
+        description: >-
+          MySQL Workbench is a visual database design tool 
+          that integrates SQL development, administration, 
+          database design, creation and maintenance into a 
+          single integrated development environment for the
+          MySQL database system.
         additional:
           scoop: main/mysql-workbench
 
       - name: GNU Make
         link: https://www.gnu.org/software/make
         logo: https://www.gnu.org/graphics/heckert_gnu.transp.small.png
+        description: >-
+          GNU Make is a tool which controls the generation 
+          of executables and other non-source files of a 
+          program from the program's source files.
         additional:
           scoop: main/make
 
       - name: Visual Studio Code
         link: https://code.visualstudio.com
         logo: https://code.visualstudio.com/favicon.ico
+        description: >-
+          Visual Studio Code, also commonly referred to as 
+          VS Code, is a source-code editor made by Microsoft 
+          with the Electron Framework.
 
       - name: Visual Studio
         link: https://visualstudio.microsoft.com
         logo: https://visualstudio.microsoft.com/wp-content/uploads/2022/11/vs-icon.svg
+        description: Visual Studio is an integrated development environment from Microsoft.
 
       - name: Docker
         link: https://www.docker.com
         logo: https://www.docker.com/wp-content/uploads/2023/04/cropped-Docker-favicon-192x192.png
+        description: >-
+          Docker is a set of platform as a service products that
+          use OS-level virtualization to deliver software in
+          packages called containers.
 
   - category: Network
     apps:

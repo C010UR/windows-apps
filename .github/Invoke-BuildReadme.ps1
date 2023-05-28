@@ -158,7 +158,7 @@ $md = ""
 $md += "# $($yml.header)"
 $md += "`n`n"
 $md += "$($yml.description)"
-$md += "`n"
+$md += "`n`n"
 
 # Scoop installation
 $yml.scoopInstallation.name = "Scoop"
