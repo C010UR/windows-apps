@@ -54,7 +54,7 @@ scoop install git
 scoop install main/make
 ```
 
-### [<img src="https://labs.mysql.com/common/themes/sakila/favicon.ico" alt="" style="height: 1rem;" /> MySQL Workbench](https://dev.mysql.com/downloads/workbench)
+### [<img src="https://www.svgrepo.com/show/373848/mysql.svg" alt="" style="height: 1rem;" /> MySQL Workbench](https://dev.mysql.com/downloads/workbench)
 
 ```pwsh
 scoop install main/mysql-workbench
@@ -136,7 +136,7 @@ scoop install extras/nvcleanstall
 
 ### [<img src="https://www.oracle.com/asset/web/favicons/favicon-192.png" alt="" style="height: 1rem;" /> Java](https://www.java.com/en/download/manual.jsp)
 
-### [<img src="https://www.amd.com/themes/custom/amd/favicon.ico" alt="" style="height: 1rem;" /> Ryzen master](https://www.amd.com/en/technologies/ryzen-master)
+### [<img src="https://www.svgrepo.com/show/303321/ryzen-logo.svg" alt="" style="height: 1rem;" /> Ryzen Master](https://www.amd.com/en/technologies/ryzen-master)
 
 ### [<img src="https://tpucdn.com/download/images/123_icon-v1685099743626.png" alt="" style="height: 1rem;" /> Visual C++ Redistributable Runtimes All-in-One](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one)
 
@@ -146,7 +146,7 @@ scoop install extras/nvcleanstall
 
 * [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1615298)
 
-### [<img src="https://www.builtbybel.com/images/about/favicon.png" alt="" style="height: 1rem;" /> ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)
+### [<img src="https://www.svgrepo.com/show/382713/windows-applications.svg" alt="" style="height: 1rem;" /> ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)
 
 ```pwsh
 scoop install extras/thisiswin11
