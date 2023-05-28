@@ -141,36 +141,53 @@ apps:
       - name: ngrok
         link: https://ngrok.com
         logo: https://ngrok.com/static/img/favicon.png
+        description: ngrok is the fastest way to put your app on the internet.
         additional:
           scoop: main/ngrok
 
       - name: qBittorent
         link: https://www.qbittorrent.org
         logo: https://www.qbittorrent.org/favicon.ico
+        description: >-
+          qBittorrent is a cross-platform free and open-source
+          BitTorrent client written in native C++.
         additional:
           scoop: extras/qbittorrent
 
       - name: Mozilla Firefox
         link: https://www.mozilla.org/en-US/firefox
         logo: https://www.mozilla.org/media/img/favicons/firefox/browser/favicon-196x196.59e3822720be.png
+        description: >-
+          Mozilla Firefox, or simply Firefox, is a free and 
+          open-source web browser developed by the Mozilla 
+          Foundation and its subsidiary, the Mozilla Corporation.
         additional:
           scoop: extras/firefox
 
       - name: Google Chrome
         link: https://www.google.com/chrome
         logo: https://www.google.com/chrome/static/images/chrome-logo-m100.svg
+        description: >-
+          Google Chrome is a cross-platform web browser developed 
+          by Google.
         additional:
           scoop: extras/googlechrome
 
       - name: Opera
         link: https://www.opera.com
         logo: https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg
+        description: >-
+          Opera is a multi-platform web browser developed by its
+          namesake company Opera.
         additional:
           scoop: extras/opera
 
       - name: Opera GX
         link: https://www.opera.com/gx
         logo: https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/client/welcomeGx/favicon/favicon.6e8da31be579.ico
+        description: >-
+          Opera GX is a special version of the Opera browser built
+          specifically for gamers.
         additional:
           scoop: extras/opera-gx
 
@@ -179,12 +196,19 @@ apps:
       - name: NVCleanstall
         link: https://www.techpowerup.com/nvcleanstall
         logo: https://tpucdn.com/download/images/133_icon-v1685099743626.png
+        description: >-
+          NVCleanstall lets you customize the NVIDIA GeForce Driver
+          package by removing components that you don't need (or want).
         additional:
           scoop: extras/nvcleanstall
 
       - name: Visual C++ Redistributable Runtimes All-in-One
         link: https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one
         logo: https://tpucdn.com/download/images/123_icon-v1685099743626.png
+        description: >-
+          This archive contains the latest version (May 2023) of all
+          VCRedist Visual Studio C++ runtimes, installable with
+          a single click.
 
       - name: .NET Framework 4.8
         link: https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48
