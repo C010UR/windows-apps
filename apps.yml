@@ -1,3 +1,5 @@
+%YAML 1.2
+---
 header: "Windows apps"
 description: |
   I tried to use [scoop](https://scoop.sh) first, then [microsoft store](https://apps.microsoft.com/store/apps), if application is not available in scoop, then provide just a link or command, if application is not available in either application providers.
@@ -245,17 +247,16 @@ cursors:
     link: https://www.deviantart.com/alexgal23/art/Flickr-Cursors-721046420
     additional:
       dir: ./cursors/Flickr
-      links: 
+      links:
         - name: 7themes.su
           logo: https://7themes.su/favicon.ico
           link: https://7themes.su/stuff/kursory_windows/flickr/7-1-0-1000
-    
 
   - name: Windows 11 Concept V2
     link: https://www.deviantart.com/jepricreations/art/Windows-11-Cursors-Concept-v2-886489356
     additional:
       dir: ./cursors/Windows-11-concept
-      links: 
+      links:
         - name: 7themes.su
           logo: https://7themes.su/favicon.ico
           link: https://7themes.su/stuff/kursory_windows/windows_11_cursors_concept/7-1-0-1149
