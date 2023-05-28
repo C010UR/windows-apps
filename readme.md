@@ -166,17 +166,27 @@ scoop install extras/nvcleanstall
 
 ### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo Driver Updater](https://www.ashampoo.com/en-us/driver-updater)
 
+Ashampoo Driver Updater provides updates for a wide variety of components and devices from professional to lesser known brands. As soon as new drivers become available, the instantly get added to Ashampoo Driver Updater's huge database and therefore become available to you.
+
 * [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1594138)
 
 ### [<img src="https://www.microsoft.com/favicon.ico" alt="" style="height: 1rem;" /> .NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
 
+The .NET Framework is a proprietary software framework developed by Microsoft that runs primarily on Microsoft Windows.
+
 ### [<img src="https://www.microsoft.com/favicon.ico" alt="" style="height: 1rem;" /> DirectX](https://www.microsoft.com/en-us/download/details.aspx?id=35)
+
+Microsoft DirectX is a collection of application programming interfaces for handling tasks related to multimedia, especially game programming and video, on Microsoft platforms. Originally, the names of these APIs all began with "Direct", such as Direct3D, DirectDraw, DirectMusic, DirectPlay, DirectSound, and so forth.
 
 ### [<img src="https://www.nvidia.com/favicon.ico" alt="" style="height: 1rem;" /> Geforce Experience](https://www.nvidia.com/ru-ru/geforce/geforce-experience)
 
 ### [<img src="https://www.oracle.com/asset/web/favicons/favicon-192.png" alt="" style="height: 1rem;" /> Java](https://www.java.com/en/download/manual.jsp)
 
+Microsoft DirectX is a collection of application programming interfaces for handling tasks related to multimedia, especially game programming and video, on Microsoft platforms. Originally, the names of these APIs all began with "Direct", such as Direct3D, DirectDraw, DirectMusic, DirectPlay, DirectSound, and so forth.
+
 ### [<img src="https://www.svgrepo.com/show/303321/ryzen-logo.svg" alt="" style="height: 1rem;" /> Ryzen Master](https://www.amd.com/en/technologies/ryzen-master)
+
+Every AMD Ryzen processor is multiplier-unlocked from the factory, so you can personalize performance to your taste. AMD provides the AMD Ryzen Master utility to access this powerful advantage.
 
 ### [<img src="https://tpucdn.com/download/images/123_icon-v1685099743626.png" alt="" style="height: 1rem;" /> Visual C++ Redistributable Runtimes All-in-One](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one)
 
@@ -186,17 +196,23 @@ This archive contains the latest version (May 2023) of all VCRedist Visual Studi
 
 ### [<img src="https://www.builtbybel.com/images/about/favicon.png" alt="" style="height: 1rem;" /> ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)
 
+ThisIsWin11 lets you customize Windows 11 all in one place.
+
 ```pwsh
 scoop install extras/thisiswin11
 ```
 
 ### [<img src="https://www.rainmeter.net/favicon.ico" alt="" style="height: 1rem;" /> Rainmeter](https://www.rainmeter.net/)
 
+Rainmeter allows you to display customizable skins on your desktop, from hardware usage meters to fully functional audio visualizers.
+
 ```pwsh
 scoop install extras/rainmeter
 ```
 
 ### [<img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxl2iAbsXA6iMNHnNlwb_DNsktdfeNEYL8icVdKPB3umD6uGJFQfYvPum5x89EFbFwEaqQtvglmRq0D9RJJo9Kyk-&format=source&w=120" alt="" style="height: 1rem;" /> PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)
+
+Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity.
 
 * [<img src="https://apps.microsoft.com/store/images/logo-64x64.png" alt="" style="height: 1rem;" /> Microsoft Store](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD)
 
@@ -206,25 +222,37 @@ scoop install extras/powertoys
 
 ### [<img src="https://www.henrypp.org/favicon.ico" alt="" style="height: 1rem;" /> Mem Reduct](https://www.henrypp.org/product/memreduct)
 
+Lightweight real-time memory management application to monitor and clean system memory on your computer.
+
 ```pwsh
 scoop install extras/memreduct
 ```
 
 ### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo WinOptimizer](https://www.ashampoo.com/en-us/winoptimizer-26)
 
+Is your Windows PC slow? Ashampoo WinOptimizer speeds up your PC, removes junk files, and fixes common Windows issues.
+
 * [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1615298)
 
 ### [<img src="https://www.startallback.com/favicon.ico" alt="" style="height: 1rem;" /> StartAllBack](https://www.startallback.com/)
+
+StartAllBack restores taskbar, start menu, context menus, explorer, sanity, style and order!
 
 * [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1634644)
 
 ### [<img src="https://www.sordum.org/favicon.ico" alt="" style="height: 1rem;" /> Easy Context Menu](https://www.sordum.org/7615/easy-context-menu-v1-6)
 
+Easy Context Menu (ECM) lets you add a variety of useful commands and tweaks to the Desktop, My Computer, Drives, File and Folder right-click context menus.
+
 ### [<img src="https://www.svgrepo.com/show/382713/windows-applications.svg" alt="" style="height: 1rem;" /> Ultimate Windows Tweaker](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
+
+Ultimate Windows Tweaker is like a TweakUI for Windows 10.
 
 ## Other software
 
 ### [<img src="https://www.7-zip.org/7ziplogo.png" alt="" style="height: 1rem;" /> 7-zip](https://www.7-zip.org/download.html)
+
+7-Zip is a free and open-source file archiver, a utility used to  place groups of files within compressed containers known as "archives".
 
 ```pwsh
 scoop install main/7zip
@@ -232,17 +260,27 @@ scoop install main/7zip
 
 ### [<img src="https://www.vmware.com/favicon.ico" alt="" style="height: 1rem;" /> VMware](https://www.vmware.com/products/workstation-player.html)
 
+VMware Workstation is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems; it enables users to set up virtual machines on a single physical machine and use them simultaneously along with the host machine.
+
 * [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1629099)
 
 ### [<img src="https://clipdiary.com/favicon.ico" alt="" style="height: 1rem;" /> ClipDiary](http://clipdiary.com/)
 
+Clipdiary is a powerful clipboard manager, which records every piece of data that goes to the Windows clipboard, meaning that you can easily retrieve any information that was once copied to the clipboard.
+
 ### [<img src="https://tpucdn.com/download/images/11_icon-v1685099743626.png" alt="" style="height: 1rem;" /> NVFlash](https://www.techpowerup.com/download/nvidia-nvflash)
 
+NVIDIA NVFlash is used to flash the graphics card BIOS on Ampere, Turing, Pascal and all older NVIDIA cards.
+
 ### [<img src="https://www.roboform.com/favicon.ico" alt="" style="height: 1rem;" /> RoboForm](https://www.roboform.com/download)
+
+RoboForm is a password manager, a class of software that allows users to have secure, unique passwords for every website accessed.
 
 ## Powershell modules
 
 ### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Oh My Posh](https://ohmyposh.dev)
+
+A prompt theme engine for any shell.
 
 ```pwsh
 scoop install main/oh-my-posh
@@ -250,29 +288,39 @@ scoop install main/oh-my-posh
 
 ### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> Terminal Icons](https://github.com/devblackops/Terminal-Icons)
 
+Terminal-Icons is a PowerShell module that adds file and folder icons when displaying items in the terminal.
+
 ```pwsh
 scoop install extras/terminal-icons
 ```
 
 ### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> PSReadLine](https://learn.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.3)
 
+This module replaces the command line editing experience of PowerShell for versions 3 and up.
+
 ```pwsh
 scoop install extras/psreadline
 ```
 
-### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Posh Git module](https://ohmyposh.dev)
+### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Posh Git module](https://github.com/dahlbyk/posh-git)
+
+posh-git is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that can be displayed in the PowerShell prompt.
 
 ```pwsh
 scoop install extras/posh-git
 ```
 
-### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Posh Docker module](https://ohmyposh.dev)
+### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_white_128.svg" alt="" style="height: 1rem;" /> DockerCompletion](https://github.com/matt9ucci/DockerCompletion)
+
+DockerCompletion for PowerShell.
 
 ```pwsh
-scoop install extras/posh-docker
+scoop install extras/dockercompletion
 ```
 
 ### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> PowerType](https://github.com/AnderssonPeter/PowerType)
+
+Autocomplete for Powershell
 
 ```pwsh
 Install-Module PowerType -AllowPrerelease
