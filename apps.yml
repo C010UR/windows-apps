@@ -156,7 +156,7 @@ apps:
           links:
             - name: NNM Club
               link: https://nnmclub.to/forum/viewtopic.php?t=1594138
-              logo: https://nnmclub.to/favicon.ico
+              logo: https://nnmstatic.win/forum/images/noavatar4.png
 
       - name: Ryzen Master
         link: https://www.amd.com/en/technologies/ryzen-master
@@ -170,7 +170,7 @@ apps:
     apps:
       - name: ThisIsWin11
         link: https://github.com/builtbybel/ThisIsWin11
-        logo: https://www.svgrepo.com/show/382713/windows-applications.svg # non-origin icon
+        logo: https://www.builtbybel.com/images/about/favicon.png
         additional:
           scoop: extras/thisiswin11
 
@@ -181,11 +181,11 @@ apps:
           links:
             - name: NNM Club
               link: https://nnmclub.to/forum/viewtopic.php?t=1615298
-              logo: https://nnmclub.to/favicon.ico
+              logo: https://nnmstatic.win/forum/images/noavatar4.png
 
       - name: Ultimate Windows Tweaker
         link: https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10
-        logo: https://www.thewindowsclub.com/wp-content/themes/the-windows-club/images/favicon.ico
+        logo: https://www.svgrepo.com/show/382713/windows-applications.svg # non-origin icon
 
   - category: Other software
     apps:
@@ -249,7 +249,7 @@ cursors:
       dir: ./cursors/Flickr
       links:
         - name: 7themes.su
-          logo: https://7themes.su/favicon.ico
+          logo: https://7themes.su/img/f-logo-d.png
           link: https://7themes.su/stuff/kursory_windows/flickr/7-1-0-1000
 
   - name: Windows 11 Concept V2
@@ -258,5 +258,5 @@ cursors:
       dir: ./cursors/Windows-11-concept
       links:
         - name: 7themes.su
-          logo: https://7themes.su/favicon.ico
+          logo: https://7themes.su/img/f-logo-d.png
           link: https://7themes.su/stuff/kursory_windows/windows_11_cursors_concept/7-1-0-1149
