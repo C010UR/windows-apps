@@ -2,11 +2,7 @@ name: CI
 
 on:
   push:
-    paths:
-      - "./apps.yml"
   pull_request:
-    paths:
-      - "./apps.yml"
 
 jobs:
   build:
