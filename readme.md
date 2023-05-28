@@ -120,7 +120,7 @@ scoop install extras/qbittorrent
 
 ### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo Driver Updater](https://www.ashampoo.com/en-us/driver-updater)
 
-* [<img src="https://nnmstatic.win/forum/images/noavatar4.png" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1594138)
+* [<img src="https://nnmstatic.win/forum/image.php?link=http://funkyimg.com/i/2BJoQ.png" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1594138)
 
 ### [<img src="https://tpucdn.com/download/images/133_icon-v1685099743626.png" alt="" style="height: 1rem;" /> NVCleanstall](https://www.techpowerup.com/nvcleanstall)
 
@@ -144,7 +144,7 @@ scoop install extras/nvcleanstall
 
 ### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo WinOptimizer](https://www.ashampoo.com/en-us/winoptimizer-26)
 
-* [<img src="https://nnmstatic.win/forum/images/noavatar4.png" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1615298)
+* [<img src="https://nnmstatic.win/forum/image.php?link=http://funkyimg.com/i/2BJoQ.png" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1615298)
 
 ### [<img src="https://www.builtbybel.com/images/about/favicon.png" alt="" style="height: 1rem;" /> ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)
 
