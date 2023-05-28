@@ -1,0 +1,261 @@
+header: "Windows apps"
+description: |
+  I tried to use [scoop](https://scoop.sh) first, then [microsoft store](https://apps.microsoft.com/store/apps), if application is not available in scoop, then provide just a link or command, if application is not available in either application providers.
+scoopInstallation:
+  link: https://scoop.sh
+  logo: https://avatars.githubusercontent.com/u/16618068
+  command: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm get.scoop.sh | iex; scoop install git
+  buckets:
+    - main
+    - extras
+    - versions
+    - games
+    - nonportable
+    - nerd-fonts
+apps:
+  - category: Gaming
+    apps:
+      - name: Epic Games Store
+        link: https://store.epicgames.com
+        logo: https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico
+        additional:
+          scoop: games/epic-games-launcher
+
+      - name: Steam
+        link: https://store.steampowered.com
+        logo: https://store.steampowered.com/favicon.ico
+
+      - name: Discord
+        link: https://discord.com
+        logo: https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico
+        additional:
+          scoop: extras/discord
+
+      - name: x360ce
+        link: https://www.x360ce.com
+        logo: https://www.x360ce.com/favicon.x360ce.ico
+
+  - category: Programming
+    apps:
+      - name: Git
+        link: https://git-scm.com
+        logo: https://git-scm.com/favicon.ico
+        additional:
+          scoop: git
+
+      - name: Notepad++
+        link: https://notepad-plus-plus.org/downloads
+        logo: https://notepad-plus-plus.org/images/logo.svg
+        additional:
+          scoop: extras/notepadplusplus
+
+      - name: Code::Blocks
+        link: http://www.codeblocks.org
+        logo: https://www.codeblocks.org/images/logo160.png
+        additional:
+          scoop: extras/codeblocks
+
+      - name: PG Admin
+        link: https://www.pgadmin.org
+        logo: https://www.pgadmin.org/static/COMPILED/assets/img/favicon.ico
+        additional:
+          scoop: nonportable/pgadmin4-np
+
+      - name: MySQL Workbench
+        link: https://dev.mysql.com/downloads/workbench
+        logo: https://labs.mysql.com/common/themes/sakila/favicon.ico
+        additional:
+          scoop: main/mysql-workbench
+
+      - name: GNU Make
+        link: https://www.gnu.org/software/make
+        logo: https://www.gnu.org/graphics/heckert_gnu.transp.small.png
+        additional:
+          scoop: main/make
+
+      - name: Visual Studio Code
+        link: https://code.visualstudio.com
+        logo: https://code.visualstudio.com/favicon.ico
+
+      - name: Visual Studio
+        link: https://visualstudio.microsoft.com
+        logo: https://visualstudio.microsoft.com/wp-content/uploads/2022/11/vs-icon.svg
+
+      - name: Docker
+        link: https://www.docker.com
+        logo: https://www.docker.com/wp-content/uploads/2023/04/cropped-Docker-favicon-192x192.png
+
+  - category: Network
+    apps:
+      - name: ngrok
+        link: https://ngrok.com
+        logo: https://ngrok.com/static/img/favicon.png
+        additional:
+          scoop: main/ngrok
+
+      - name: qBittorent
+        link: https://www.qbittorrent.org
+        logo: https://www.qbittorrent.org/favicon.ico
+        additional:
+          scoop: extras/qbittorrent
+
+      - name: Mozilla Firefox
+        link: https://www.mozilla.org/en-US/firefox
+        logo: https://www.mozilla.org/media/img/favicons/firefox/browser/favicon-196x196.59e3822720be.png
+        additional:
+          scoop: extras/firefox
+
+      - name: Google Chrome
+        link: https://www.google.com/chrome
+        logo: https://www.google.com/chrome/static/images/chrome-logo-m100.svg
+        additional:
+          scoop: extras/googlechrome
+
+      - name: Opera
+        link: https://www.opera.com
+        logo: https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg
+        additional:
+          scoop: extras/opera
+
+      - name: Opera GX
+        link: https://www.opera.com/gx
+        logo: https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/client/welcomeGx/favicon/favicon.6e8da31be579.ico
+        additional:
+          scoop: extras/opera-gx
+
+  - category: Drivers
+    apps:
+      - name: NVCleanstall
+        link: https://www.techpowerup.com/nvcleanstall
+        logo: https://tpucdn.com/download/images/133_icon-v1685099743626.png
+        additional:
+          scoop: extras/nvcleanstall
+
+      - name: Visual C++ Redistributable Runtimes All-in-One
+        link: https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one
+        logo: https://tpucdn.com/download/images/123_icon-v1685099743626.png
+
+      - name: .NET Framework 4.8
+        link: https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48
+        logo: https://www.microsoft.com/favicon.ico
+
+      - name: DirectX
+        link: https://www.microsoft.com/en-us/download/details.aspx?id=35
+        logo: https://www.microsoft.com/favicon.ico
+
+      - name: Java
+        link: https://www.java.com/en/download/manual.jsp
+        logo: https://www.oracle.com/asset/web/favicons/favicon-192.png
+
+      - name: Ashampoo Driver Updater
+        link: https://www.ashampoo.com/en-us/driver-updater
+        logo: https://www.ashampoo.com/favicon.ico
+        additional:
+          links:
+            - name: NNM Club
+              link: https://nnmclub.to/forum/viewtopic.php?t=1594138
+              logo: https://nnmclub.to/favicon.ico
+
+      - name: Ryzen master
+        link: https://www.amd.com/en/technologies/ryzen-master
+        logo: https://www.amd.com/themes/custom/amd/favicon.ico
+
+      - name: Geforce Experience
+        link: https://www.nvidia.com/ru-ru/geforce/geforce-experience
+        logo: https://www.nvidia.com/favicon.ico
+
+  - category: Optimizers
+    apps:
+      - name: ThisIsWin11
+        link: https://github.com/builtbybel/ThisIsWin11
+        logo: https://www.builtbybel.com/images/about/favicon.png
+        additional:
+          scoop: extras/thisiswin11
+
+      - name: Ashampoo WinOptimizer
+        link: https://www.ashampoo.com/en-us/winoptimizer-26
+        logo: https://www.ashampoo.com/favicon.ico
+        additional:
+          links:
+            - name: NNM Club
+              link: https://nnmclub.to/forum/viewtopic.php?t=1615298
+              logo: https://nnmclub.to/favicon.ico
+
+      - name: Ultimate Windows Tweaker
+        link: https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10
+        logo: https://www.thewindowsclub.com/wp-content/themes/the-windows-club/images/favicon.ico
+
+  - category: Other software
+    apps:
+      - name: NVFlash
+        link: https://www.techpowerup.com/download/nvidia-nvflash
+        logo: https://tpucdn.com/download/images/11_icon-v1685099743626.png
+
+  - category: Powershell modules
+    apps:
+      - name: Oh My Posh
+        link: https://ohmyposh.dev
+        logo: https://ohmyposh.dev/img/logo.svg
+        additional:
+          scoop: main/oh-my-posh
+
+      - name: PSReadLine
+        link: https://learn.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.3
+        logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg
+        additional:
+          scoop: extras/psreadline
+
+      - name: Terminal Icons
+        link: https://github.com/devblackops/Terminal-Icons
+        logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg
+        additional:
+          scoop: extras/terminal-icons
+
+      - name: PowerType
+        link: https://github.com/AnderssonPeter/PowerType
+        logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg
+        additional:
+          command: Install-Module PowerType -AllowPrerelease
+
+      - name: Posh Git module
+        link: https://ohmyposh.dev
+        logo: https://ohmyposh.dev/img/logo.svg
+        additional:
+          scoop: extras/posh-git
+
+      - name: Posh Docker module
+        link: https://ohmyposh.dev
+        logo: https://ohmyposh.dev/img/logo.svg
+        additional:
+          scoop: extras/posh-docker
+
+  - category: Nerd Fonts
+    link: https://www.nerdfonts.com
+    logo: https://www.nerdfonts.com/assets/img/nerd-fonts-logo.svg
+    apps:
+      - name: JetBrains Mono
+        additional:
+          scoop: nerd-fonts/JetBrainsMono-NF-Mono
+
+      - name: FiraCode Mono
+        additional:
+          scoop: nerd-fonts/FiraCode-NF-Mono
+cursors:
+  - name: Flickr
+    link: https://www.deviantart.com/alexgal23/art/Flickr-Cursors-721046420
+    additional:
+      dir: ./cursors/Flickr
+      links: 
+        - name: 7themes.su
+          logo: https://7themes.su/favicon.ico
+          link: https://7themes.su/stuff/kursory_windows/flickr/7-1-0-1000
+    
+
+  - name: Windows 11 Concept V2
+    link: https://www.deviantart.com/jepricreations/art/Windows-11-Cursors-Concept-v2-886489356
+    additional:
+      dir: ./cursors/Windows-11-concept
+      links: 
+        - name: 7themes.su
+          logo: https://7themes.su/favicon.ico
+          link: https://7themes.su/stuff/kursory_windows/windows_11_cursors_concept/7-1-0-1149
