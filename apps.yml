@@ -213,18 +213,40 @@ apps:
       - name: .NET Framework 4.8
         link: https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48
         logo: https://www.microsoft.com/favicon.ico
+        description: >-
+          The .NET Framework is a proprietary software framework
+          developed by Microsoft that runs primarily on Microsoft
+          Windows.
 
       - name: DirectX
         link: https://www.microsoft.com/en-us/download/details.aspx?id=35
         logo: https://www.microsoft.com/favicon.ico
+        description: >-
+          Microsoft DirectX is a collection of application programming
+          interfaces for handling tasks related to multimedia, especially
+          game programming and video, on Microsoft platforms. Originally,
+          the names of these APIs all began with "Direct", such as Direct3D,
+          DirectDraw, DirectMusic, DirectPlay, DirectSound, and so forth.
 
       - name: Java
         link: https://www.java.com/en/download/manual.jsp
         logo: https://www.oracle.com/asset/web/favicons/favicon-192.png
+        description: >-
+          Microsoft DirectX is a collection of application programming
+          interfaces for handling tasks related to multimedia, especially
+          game programming and video, on Microsoft platforms. Originally,
+          the names of these APIs all began with "Direct", such as Direct3D,
+          DirectDraw, DirectMusic, DirectPlay, DirectSound, and so forth.
 
       - name: Ashampoo Driver Updater
         link: https://www.ashampoo.com/en-us/driver-updater
         logo: https://www.ashampoo.com/favicon.ico
+        description: >-
+          Ashampoo Driver Updater provides updates for a wide variety of
+          components and devices from professional to lesser known brands.
+          As soon as new drivers become available, the instantly get added
+          to Ashampoo Driver Updater's huge database and therefore become
+          available to you.
         additional:
           links:
             - name: NNM Club
@@ -234,6 +256,10 @@ apps:
       - name: Ryzen Master
         link: https://www.amd.com/en/technologies/ryzen-master
         logo: https://www.svgrepo.com/show/303321/ryzen-logo.svg # non-origin icon
+        description: >-
+          Every AMD Ryzen processor is multiplier-unlocked from the factory,
+          so you can personalize performance to your taste. AMD provides the
+          AMD Ryzen Master utility to access this powerful advantage.
 
       - name: Geforce Experience
         link: https://www.nvidia.com/ru-ru/geforce/geforce-experience
@@ -244,12 +270,17 @@ apps:
       - name: ThisIsWin11
         link: https://github.com/builtbybel/ThisIsWin11
         logo: https://www.builtbybel.com/images/about/favicon.png
+        description: >-
+          ThisIsWin11 lets you customize Windows 11 all in one place.
         additional:
           scoop: extras/thisiswin11
 
       - name: Ashampoo WinOptimizer
         link: https://www.ashampoo.com/en-us/winoptimizer-26
         logo: https://www.ashampoo.com/favicon.ico
+        description: >-
+          Is your Windows PC slow? Ashampoo WinOptimizer speeds up your
+          PC, removes junk files, and fixes common Windows issues.
         additional:
           links:
             - name: NNM Club
@@ -259,20 +290,32 @@ apps:
       - name: Ultimate Windows Tweaker
         link: https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10
         logo: https://www.svgrepo.com/show/382713/windows-applications.svg # non-origin icon
+        description: >-
+          Ultimate Windows Tweaker is like a TweakUI for Windows 10.
 
       - name: Easy Context Menu
         link: https://www.sordum.org/7615/easy-context-menu-v1-6
         logo: https://www.sordum.org/favicon.ico
+        description: >-
+          Easy Context Menu (ECM) lets you add a variety of useful commands and
+          tweaks to the Desktop, My Computer, Drives, File and Folder right-click
+          context menus.
 
       - name: Mem Reduct
         link: https://www.henrypp.org/product/memreduct
         logo: https://www.henrypp.org/favicon.ico
+        description: >-
+          Lightweight real-time memory management application to monitor and clean
+          system memory on your computer.
         additional:
           scoop: extras/memreduct
 
       - name: PowerToys
         link: https://learn.microsoft.com/en-us/windows/powertoys/
         logo: https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxl2iAbsXA6iMNHnNlwb_DNsktdfeNEYL8icVdKPB3umD6uGJFQfYvPum5x89EFbFwEaqQtvglmRq0D9RJJo9Kyk-&format=source&w=120
+        description: >-
+          Microsoft PowerToys is a set of utilities for power users to tune and
+          streamline their Windows experience for greater productivity.
         additional:
           scoop: extras/powertoys
           links:
@@ -283,12 +326,18 @@ apps:
       - name: Rainmeter
         link: https://www.rainmeter.net/
         logo: https://www.rainmeter.net/favicon.ico
+        description: >-
+          Rainmeter allows you to display customizable skins on your desktop,
+          from hardware usage meters to fully functional audio visualizers.
         additional:
           scoop: extras/rainmeter
 
       - name: StartAllBack
         link: https://www.startallback.com/
         logo: https://www.startallback.com/favicon.ico
+        description: >-
+          StartAllBack restores taskbar, start menu, context menus, explorer,
+          sanity, style and order!
         additional:
           links:
             - name: NNM Club
@@ -300,24 +349,42 @@ apps:
       - name: NVFlash
         link: https://www.techpowerup.com/download/nvidia-nvflash
         logo: https://tpucdn.com/download/images/11_icon-v1685099743626.png
+        description: >-
+          NVIDIA NVFlash is used to flash the graphics card BIOS on Ampere,
+          Turing, Pascal and all older NVIDIA cards.
 
       - name: 7-zip
         link: https://www.7-zip.org/download.html
         logo: https://www.7-zip.org/7ziplogo.png
+        description: >-
+          7-Zip is a free and open-source file archiver, a utility used to 
+          place groups of files within compressed containers known as "archives".
         additional:
           scoop: main/7zip
 
       - name: ClipDiary
         link: http://clipdiary.com/
         logo: https://clipdiary.com/favicon.ico
+        description: >-
+          Clipdiary is a powerful clipboard manager, which records every piece of
+          data that goes to the Windows clipboard, meaning that you can easily retrieve
+          any information that was once copied to the clipboard.
 
       - name: RoboForm
         link: https://www.roboform.com/download
         logo: https://www.roboform.com/favicon.ico
+        description: >-
+          RoboForm is a password manager, a class of software that allows users to
+          have secure, unique passwords for every website accessed.
 
       - name: VMware
         link: https://www.vmware.com/products/workstation-player.html
         logo: https://www.vmware.com/favicon.ico
+        description: >-
+          VMware Workstation is a hosted hypervisor that runs on x64 versions of
+          Windows and Linux operating systems; it enables users to set up virtual
+          machines on a single physical machine and use them simultaneously along
+          with the host machine.
         additional:
           links:
             - name: NNM Club
@@ -329,38 +396,53 @@ apps:
       - name: Oh My Posh
         link: https://ohmyposh.dev
         logo: https://ohmyposh.dev/img/logo.svg
+        description: >-
+          A prompt theme engine for any shell.
         additional:
           scoop: main/oh-my-posh
 
       - name: PSReadLine
         link: https://learn.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.3
         logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg
+        description: >-
+          This module replaces the command line editing experience of PowerShell for
+          versions 3 and up.
         additional:
           scoop: extras/psreadline
 
       - name: Terminal Icons
         link: https://github.com/devblackops/Terminal-Icons
         logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg
+        description: >-
+          Terminal-Icons is a PowerShell module that adds file and folder icons when
+          displaying items in the terminal.
         additional:
           scoop: extras/terminal-icons
 
       - name: PowerType
         link: https://github.com/AnderssonPeter/PowerType
         logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg
+        description: >-
+          Autocomplete for Powershell
         additional:
           command: Install-Module PowerType -AllowPrerelease
 
       - name: Posh Git module
-        link: https://ohmyposh.dev
+        link: https://github.com/dahlbyk/posh-git
         logo: https://ohmyposh.dev/img/logo.svg
+        description: >-
+          posh-git is a PowerShell module that integrates Git and PowerShell by providing
+          Git status summary information that can be displayed in the PowerShell prompt.
         additional:
           scoop: extras/posh-git
 
-      - name: Posh Docker module
-        link: https://ohmyposh.dev
-        logo: https://ohmyposh.dev/img/logo.svg
+      - name: DockerCompletion
+        link: https://github.com/matt9ucci/DockerCompletion
+        logo: https://learn.microsoft.com/en-us/powershell/media/index/ps_white_128.svg
+        description: >-
+          DockerCompletion for PowerShell.
         additional:
-          scoop: extras/posh-docker
+          scoop: extras/dockercompletion
 
   - category: Nerd Fonts
     link: https://www.nerdfonts.com
