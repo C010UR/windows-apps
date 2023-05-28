@@ -2,7 +2,11 @@ name: CI
 
 on:
   push:
+    paths:
+      - "./apps.yml"
   pull_request:
+    paths:
+      - "./apps.yml"
 
 jobs:
   build:
@@ -14,18 +18,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Filter files
-        id: changes
-        uses: dorny/paths-filter@v2
-        with:
-          filters: |
-            app:
-              - ./app.yml
-
       - name: Lint app.yml
         uses: ibiqlik/action-yamllint@v3
         with:
-          file_or_dir: ./app.yml
+          file_or_dir: ./apps.yml
 
       - name: Build
         shell: pwsh
