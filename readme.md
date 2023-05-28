@@ -108,11 +108,15 @@ Visual Studio Code, also commonly referred to as  VS Code, is a source-code edit
 
 ### [<img src="https://ngrok.com/static/img/favicon.png" alt="" style="height: 1rem;" /> ngrok](https://ngrok.com)
 
+ngrok is the fastest way to put your app on the internet.
+
 ```pwsh
 scoop install main/ngrok
 ```
 
 ### [<img src="https://www.qbittorrent.org/favicon.ico" alt="" style="height: 1rem;" /> qBittorent](https://www.qbittorrent.org)
+
+qBittorrent is a cross-platform free and open-source BitTorrent client written in native C++.
 
 ```pwsh
 scoop install extras/qbittorrent
@@ -120,11 +124,15 @@ scoop install extras/qbittorrent
 
 ### [<img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/client/welcomeGx/favicon/favicon.6e8da31be579.ico" alt="" style="height: 1rem;" /> Opera GX](https://www.opera.com/gx)
 
+Opera GX is a special version of the Opera browser built specifically for gamers.
+
 ```pwsh
 scoop install extras/opera-gx
 ```
 
 ### [<img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg" alt="" style="height: 1rem;" /> Opera](https://www.opera.com)
+
+Opera is a multi-platform web browser developed by its namesake company Opera.
 
 ```pwsh
 scoop install extras/opera
@@ -132,11 +140,15 @@ scoop install extras/opera
 
 ### [<img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg" alt="" style="height: 1rem;" /> Google Chrome](https://www.google.com/chrome)
 
+Google Chrome is a cross-platform web browser developed  by Google.
+
 ```pwsh
 scoop install extras/googlechrome
 ```
 
 ### [<img src="https://www.mozilla.org/media/img/favicons/firefox/browser/favicon-196x196.59e3822720be.png" alt="" style="height: 1rem;" /> Mozilla Firefox](https://www.mozilla.org/en-US/firefox)
+
+Mozilla Firefox, or simply Firefox, is a free and  open-source web browser developed by the Mozilla  Foundation and its subsidiary, the Mozilla Corporation.
 
 ```pwsh
 scoop install extras/firefox
@@ -145,6 +157,8 @@ scoop install extras/firefox
 ## Drivers
 
 ### [<img src="https://tpucdn.com/download/images/133_icon-v1685099743626.png" alt="" style="height: 1rem;" /> NVCleanstall](https://www.techpowerup.com/nvcleanstall)
+
+NVCleanstall lets you customize the NVIDIA GeForce Driver package by removing components that you don't need (or want).
 
 ```pwsh
 scoop install extras/nvcleanstall
@@ -165,6 +179,8 @@ scoop install extras/nvcleanstall
 ### [<img src="https://www.svgrepo.com/show/303321/ryzen-logo.svg" alt="" style="height: 1rem;" /> Ryzen Master](https://www.amd.com/en/technologies/ryzen-master)
 
 ### [<img src="https://tpucdn.com/download/images/123_icon-v1685099743626.png" alt="" style="height: 1rem;" /> Visual C++ Redistributable Runtimes All-in-One](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one)
+
+This archive contains the latest version (May 2023) of all VCRedist Visual Studio C++ runtimes, installable with a single click.
 
 ## Optimizers / Tweakers
 
