@@ -42,14 +42,14 @@ function Format-Link($obj, $nameField = "name", $logoField = "logo", $linkField 
 
     # Handle name
     if ($obj.ContainsKey($nameField)) {
-        $str += $obj[$nameField]
+        $str += $($obj[$nameField])
     }
     else {
         $str += "_"
     }
 
     # Handle link
-    if ($obj.ContainsKey("$linkField")) {
+    if ($obj.ContainsKey($linkField)) {
         $str = "[$str]($($obj[$linkField]))"
     }
 
@@ -86,6 +86,11 @@ function Format-AppAdditions($obj) {
 function Format-App($obj) {
     $str = "### $(Format-Link $obj)`n`n"
 
+    if ($obj.ContainsKey("description")) {
+        $str += $obj.description
+        $str += "`n`n"
+    }
+
     if ($obj.ContainsKey("additional")) {
         $str += Format-AppAdditions $obj.additional
     }
@@ -109,7 +114,8 @@ function Format-CursorAdditions($obj) {
 
     # Handle links
     if ($obj.ContainsKey("links")) {
-        $str += ($obj.links | Sort-Object "Name" | ForEach-Object {
+        $str += ($obj.links | Sort-Object "Name"
+            | ForEach-Object {
                 "* $(Format-Link $_)"
             }) -join "`n"
 
@@ -164,7 +170,9 @@ $md += "`n`n"
 # Scoop Buckets
 $md += "## Buckets"
 $md += "`n`n"
-$md += Format-CodeBlock (($yml.scoopInstallation.buckets | ForEach-Object { "scoop bucket add $_;" }) -join " ")
+$md += Format-CodeBlock `
+(($yml.scoopInstallation.buckets
+        | ForEach-Object { "scoop bucket add $_;" }) -join " ")
 $md += "`n`n"
 
 # Apps
@@ -174,9 +182,12 @@ $md += ($yml.apps | ForEach-Object {
         $str = "## $(Format-Link $_ -nameField "category")"
         $str += "`n`n"
 
-        $str += ($_.apps | Sort-Object "Additional", "Name" -Stable | ForEach-Object {
-                Format-App $_
-            }) -join ""
+        $str += ($_.apps
+            | Sort-Object `
+            @{Expression = { $_.additional.scoop }; Ascending = $false },
+            @{Expression = { $_.additional.links }; Ascending = $false }, 
+            "Name"
+            | ForEach-Object { Format-App $_ }) -join ""
 
         return $str
     }) -join ""

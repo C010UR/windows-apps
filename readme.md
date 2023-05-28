@@ -18,16 +18,16 @@ scoop bucket add main; scoop bucket add extras; scoop bucket add versions; scoop
 
 ## Gaming
 
-### [<img src="https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico" alt="" style="height: 1rem;" /> Discord](https://discord.com)
-
-```pwsh
-scoop install extras/discord
-```
-
 ### [<img src="https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico" alt="" style="height: 1rem;" /> Epic Games Store](https://store.epicgames.com)
 
 ```pwsh
 scoop install games/epic-games-launcher
+```
+
+### [<img src="https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico" alt="" style="height: 1rem;" /> Discord](https://discord.com)
+
+```pwsh
+scoop install extras/discord
 ```
 
 ### [<img src="https://store.steampowered.com/favicon.ico" alt="" style="height: 1rem;" /> Steam](https://store.steampowered.com)
@@ -36,22 +36,10 @@ scoop install games/epic-games-launcher
 
 ## Programming
 
-### [<img src="https://www.codeblocks.org/images/logo160.png" alt="" style="height: 1rem;" /> Code::Blocks](http://www.codeblocks.org)
+### [<img src="https://www.pgadmin.org/static/COMPILED/assets/img/favicon.ico" alt="" style="height: 1rem;" /> PG Admin](https://www.pgadmin.org)
 
 ```pwsh
-scoop install extras/codeblocks
-```
-
-### [<img src="https://git-scm.com/favicon.ico" alt="" style="height: 1rem;" /> Git](https://git-scm.com)
-
-```pwsh
-scoop install git
-```
-
-### [<img src="https://www.gnu.org/graphics/heckert_gnu.transp.small.png" alt="" style="height: 1rem;" /> GNU Make](https://www.gnu.org/software/make)
-
-```pwsh
-scoop install main/make
+scoop install nonportable/pgadmin4-np
 ```
 
 ### [<img src="https://www.svgrepo.com/show/373848/mysql.svg" alt="" style="height: 1rem;" /> MySQL Workbench](https://dev.mysql.com/downloads/workbench)
@@ -60,16 +48,28 @@ scoop install main/make
 scoop install main/mysql-workbench
 ```
 
+### [<img src="https://www.gnu.org/graphics/heckert_gnu.transp.small.png" alt="" style="height: 1rem;" /> GNU Make](https://www.gnu.org/software/make)
+
+```pwsh
+scoop install main/make
+```
+
+### [<img src="https://git-scm.com/favicon.ico" alt="" style="height: 1rem;" /> Git](https://git-scm.com)
+
+```pwsh
+scoop install git
+```
+
 ### [<img src="https://notepad-plus-plus.org/images/logo.svg" alt="" style="height: 1rem;" /> Notepad++](https://notepad-plus-plus.org/downloads)
 
 ```pwsh
 scoop install extras/notepadplusplus
 ```
 
-### [<img src="https://www.pgadmin.org/static/COMPILED/assets/img/favicon.ico" alt="" style="height: 1rem;" /> PG Admin](https://www.pgadmin.org)
+### [<img src="https://www.codeblocks.org/images/logo160.png" alt="" style="height: 1rem;" /> Code::Blocks](http://www.codeblocks.org)
 
 ```pwsh
-scoop install nonportable/pgadmin4-np
+scoop install extras/codeblocks
 ```
 
 ### [<img src="https://www.docker.com/wp-content/uploads/2023/04/cropped-Docker-favicon-192x192.png" alt="" style="height: 1rem;" /> Docker](https://www.docker.com)
@@ -79,6 +79,30 @@ scoop install nonportable/pgadmin4-np
 ### [<img src="https://code.visualstudio.com/favicon.ico" alt="" style="height: 1rem;" /> Visual Studio Code](https://code.visualstudio.com)
 
 ## Network
+
+### [<img src="https://ngrok.com/static/img/favicon.png" alt="" style="height: 1rem;" /> ngrok](https://ngrok.com)
+
+```pwsh
+scoop install main/ngrok
+```
+
+### [<img src="https://www.qbittorrent.org/favicon.ico" alt="" style="height: 1rem;" /> qBittorent](https://www.qbittorrent.org)
+
+```pwsh
+scoop install extras/qbittorrent
+```
+
+### [<img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/client/welcomeGx/favicon/favicon.6e8da31be579.ico" alt="" style="height: 1rem;" /> Opera GX](https://www.opera.com/gx)
+
+```pwsh
+scoop install extras/opera-gx
+```
+
+### [<img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg" alt="" style="height: 1rem;" /> Opera](https://www.opera.com)
+
+```pwsh
+scoop install extras/opera
+```
 
 ### [<img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg" alt="" style="height: 1rem;" /> Google Chrome](https://www.google.com/chrome)
 
@@ -92,41 +116,17 @@ scoop install extras/googlechrome
 scoop install extras/firefox
 ```
 
-### [<img src="https://ngrok.com/static/img/favicon.png" alt="" style="height: 1rem;" /> ngrok](https://ngrok.com)
-
-```pwsh
-scoop install main/ngrok
-```
-
-### [<img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg" alt="" style="height: 1rem;" /> Opera](https://www.opera.com)
-
-```pwsh
-scoop install extras/opera
-```
-
-### [<img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/client/welcomeGx/favicon/favicon.6e8da31be579.ico" alt="" style="height: 1rem;" /> Opera GX](https://www.opera.com/gx)
-
-```pwsh
-scoop install extras/opera-gx
-```
-
-### [<img src="https://www.qbittorrent.org/favicon.ico" alt="" style="height: 1rem;" /> qBittorent](https://www.qbittorrent.org)
-
-```pwsh
-scoop install extras/qbittorrent
-```
-
 ## Drivers
-
-### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo Driver Updater](https://www.ashampoo.com/en-us/driver-updater)
-
-* [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1594138)
 
 ### [<img src="https://tpucdn.com/download/images/133_icon-v1685099743626.png" alt="" style="height: 1rem;" /> NVCleanstall](https://www.techpowerup.com/nvcleanstall)
 
 ```pwsh
 scoop install extras/nvcleanstall
 ```
+
+### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo Driver Updater](https://www.ashampoo.com/en-us/driver-updater)
+
+* [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1594138)
 
 ### [<img src="https://www.microsoft.com/favicon.ico" alt="" style="height: 1rem;" /> .NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
 
@@ -141,10 +141,6 @@ scoop install extras/nvcleanstall
 ### [<img src="https://tpucdn.com/download/images/123_icon-v1685099743626.png" alt="" style="height: 1rem;" /> Visual C++ Redistributable Runtimes All-in-One](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one)
 
 ## Optimizers / Tweakers
-
-### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo WinOptimizer](https://www.ashampoo.com/en-us/winoptimizer-26)
-
-* [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1615298)
 
 ### [<img src="https://www.henrypp.org/favicon.ico" alt="" style="height: 1rem;" /> Mem Reduct](https://www.henrypp.org/product/memreduct)
 
@@ -176,6 +172,34 @@ scoop install extras/rainmeter
 scoop install extras/thisiswin11
 ```
 
+### [<img src="https://www.rainmeter.net/favicon.ico" alt="" style="height: 1rem;" /> Rainmeter](https://www.rainmeter.net/)
+
+```pwsh
+scoop install extras/rainmeter
+```
+
+### [<img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxl2iAbsXA6iMNHnNlwb_DNsktdfeNEYL8icVdKPB3umD6uGJFQfYvPum5x89EFbFwEaqQtvglmRq0D9RJJo9Kyk-&format=source&w=120" alt="" style="height: 1rem;" /> PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)
+
+* [<img src="https://apps.microsoft.com/store/images/logo-64x64.png" alt="" style="height: 1rem;" /> Microsoft Store](https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD)
+
+```pwsh
+scoop install extras/powertoys
+```
+
+### [<img src="https://www.henrypp.org/favicon.ico" alt="" style="height: 1rem;" /> Mem Reduct](https://www.henrypp.org/product/memreduct)
+
+```pwsh
+scoop install extras/memreduct
+```
+
+### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo WinOptimizer](https://www.ashampoo.com/en-us/winoptimizer-26)
+
+* [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1615298)
+
+### [<img src="https://www.startallback.com/favicon.ico" alt="" style="height: 1rem;" /> StartAllBack](https://www.startallback.com/)
+
+* [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1634644)
+
 ### [<img src="https://www.sordum.org/favicon.ico" alt="" style="height: 1rem;" /> Easy Context Menu](https://www.sordum.org/7615/easy-context-menu-v1-6)
 
 ### [<img src="https://www.svgrepo.com/show/382713/windows-applications.svg" alt="" style="height: 1rem;" /> Ultimate Windows Tweaker](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
@@ -206,22 +230,10 @@ scoop install main/7zip
 scoop install main/oh-my-posh
 ```
 
-### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Posh Docker module](https://ohmyposh.dev)
+### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> Terminal Icons](https://github.com/devblackops/Terminal-Icons)
 
 ```pwsh
-scoop install extras/posh-docker
-```
-
-### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Posh Git module](https://ohmyposh.dev)
-
-```pwsh
-scoop install extras/posh-git
-```
-
-### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> PowerType](https://github.com/AnderssonPeter/PowerType)
-
-```pwsh
-Install-Module PowerType -AllowPrerelease
+scoop install extras/terminal-icons
 ```
 
 ### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> PSReadLine](https://learn.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.3)
@@ -230,19 +242,25 @@ Install-Module PowerType -AllowPrerelease
 scoop install extras/psreadline
 ```
 
-### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> Terminal Icons](https://github.com/devblackops/Terminal-Icons)
+### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Posh Git module](https://ohmyposh.dev)
 
 ```pwsh
-scoop install extras/terminal-icons
+scoop install extras/posh-git
+```
+
+### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Posh Docker module](https://ohmyposh.dev)
+
+```pwsh
+scoop install extras/posh-docker
+```
+
+### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> PowerType](https://github.com/AnderssonPeter/PowerType)
+
+```pwsh
+Install-Module PowerType -AllowPrerelease
 ```
 
 ## [<img src="https://www.nerdfonts.com/assets/img/nerd-fonts-logo.svg" alt="" style="height: 1rem;" /> Nerd Fonts](https://www.nerdfonts.com)
-
-### FiraCode Mono
-
-```pwsh
-scoop install nerd-fonts/FiraCode-NF-Mono
-```
 
 ### JetBrains Mono
 
@@ -250,17 +268,23 @@ scoop install nerd-fonts/FiraCode-NF-Mono
 scoop install nerd-fonts/JetBrainsMono-NF-Mono
 ```
 
+### FiraCode Mono
+
+```pwsh
+scoop install nerd-fonts/FiraCode-NF-Mono
+```
+
 # Cursors
 
-## [<img src="./cursors/Flickr/icon.png" alt="" style="height: 1.125rem;" /> Flickr](https://www.deviantart.com/alexgal23/art/Flickr-Cursors-721046420)
+## [<img src=".\cursors\Flickr\icon.png" alt="" style="height: 1.125rem;" /> Flickr](https://www.deviantart.com/alexgal23/art/Flickr-Cursors-721046420)
 
-* [Download zip](./cursors/Flickr/cursor.zip)
+* [Download zip](.\cursors\Flickr\cursor.zip)
 
 * [<img src="https://7themes.su/img/f-logo-d.png" alt="" style="height: 1rem;" /> 7themes.su](https://7themes.su/stuff/kursory_windows/flickr/7-1-0-1000)
 
-## [<img src="./cursors/Windows-11-concept/icon.png" alt="" style="height: 1.125rem;" /> Windows 11 Concept V2](https://www.deviantart.com/jepricreations/art/Windows-11-Cursors-Concept-v2-886489356)
+## [<img src=".\cursors\Windows-11-concept\icon.png" alt="" style="height: 1.125rem;" /> Windows 11 Concept V2](https://www.deviantart.com/jepricreations/art/Windows-11-Cursors-Concept-v2-886489356)
 
-* [Download zip](./cursors/Windows-11-concept/cursor.zip)
+* [Download zip](.\cursors\Windows-11-concept\cursor.zip)
 
 * [<img src="https://7themes.su/img/f-logo-d.png" alt="" style="height: 1rem;" /> 7themes.su](https://7themes.su/stuff/kursory_windows/windows_11_cursors_concept/7-1-0-1149)
 
