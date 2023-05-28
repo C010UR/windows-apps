@@ -187,4 +187,8 @@ $md += ($yml.cursors | Sort-Object "Name" | ForEach-Object {
 
 Out-File -FilePath $outputFilename -InputObject $md
 
+# Normalize line endings
+$text = [IO.File]::ReadAllText($outputFilename) -replace "`r`n", "`n"
+    [IO.File]::WriteAllText($outputFilename, $text)
+
 Write-Host "`e[32m!`e[0m Done"
