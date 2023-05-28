@@ -264,7 +264,7 @@ VMware Workstation is a hosted hypervisor that runs on x64 versions of Windows a
 
 * [<img src="https://nnmclub.to/favicon.ico" alt="" style="height: 1rem;" /> NNM Club](https://nnmclub.to/forum/viewtopic.php?t=1629099)
 
-### [<img src="https://clipdiary.com/favicon.ico" alt="" style="height: 1rem;" /> ClipDiary](http://clipdiary.com/)
+### [<img src="http://clipdiary.com/favicon.ico" alt="" style="height: 1rem;" /> ClipDiary](http://clipdiary.com/)
 
 Clipdiary is a powerful clipboard manager, which records every piece of data that goes to the Windows clipboard, meaning that you can easily retrieve any information that was once copied to the clipboard.
 
@@ -310,7 +310,7 @@ posh-git is a PowerShell module that integrates Git and PowerShell by providing 
 scoop install extras/posh-git
 ```
 
-### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_white_128.svg" alt="" style="height: 1rem;" /> DockerCompletion](https://github.com/matt9ucci/DockerCompletion)
+### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> DockerCompletion](https://github.com/matt9ucci/DockerCompletion)
 
 DockerCompletion for PowerShell.
 
