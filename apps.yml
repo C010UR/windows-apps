@@ -28,13 +28,6 @@ apps:
         additional:
           scoop: games/epic-games-launcher
 
-      - name: Epic GAYS Store
-        link: https://store.epicgames.com
-        logo: https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico
-        description: The Epic Games Store is a digital video game storefront.
-        additional:
-          scoop: games/epic-games-launcher
-
       - name: Steam
         link: https://store.steampowered.com
         logo: https://store.steampowered.com/favicon.ico
