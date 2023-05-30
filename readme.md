@@ -26,14 +26,6 @@ The Epic Games Store is a digital video game storefront.
 scoop install games/epic-games-launcher
 ```
 
-### [<img src="https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico" alt="" style="height: 1rem;" /> Epic GAYS Store](https://store.epicgames.com)
-
-The Epic Games Store is a digital video game storefront.
-
-```pwsh
-scoop install games/epic-games-launcher
-```
-
 ### [<img src="https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico" alt="" style="height: 1rem;" /> Discord](https://discord.com)
 
 Discord is an American VoIP and instant messaging social platform.
