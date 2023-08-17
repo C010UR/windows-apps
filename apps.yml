@@ -156,6 +156,14 @@ apps:
         logo: https://staruml.io/image/staruml_logo.png
         description: A sophisticated software modeler for agile and concise modeling.
 
+      - name: draw.io
+        link: https://app.diagrams.net/
+        logo: https://app.diagrams.net/images/favicon-32x32.png
+        description: >-
+          draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+        additional:
+          scoop: extras/draw.io
+
       - name: MSYS2
         link: https://www.msys2.org
         logo: https://www.msys2.org/logo.png
@@ -211,6 +219,13 @@ apps:
         additional:
           scoop: main/symfony-cli
 
+      - name: Node.js
+        link: https://nodejs.org/en
+        logo: https://nodejs.org/favicon.ico
+        description: >-
+          An asynchronous event driven JavaScript runtime designed to build scalable network applications.
+        additional:
+          scoop: main/nodejs
 
   - category: Network
     apps:
@@ -481,6 +496,14 @@ apps:
               link: https://nnmclub.to/forum/viewtopic.php?t=1634644
               logo: https://nnmclub.to/favicon.ico
 
+      - name: BleachBit
+        link: https://www.bleachbit.org/
+        logo: https://www.bleachbit.org/sites/default/files/zen_classic_logo_0.png
+        description: >-
+          BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer.
+        additional:
+          scoop: extras/bleachbit
+
   - category: Media
     apps:
       - name: K-Lite Codec Pack
@@ -506,6 +529,33 @@ apps:
           Metadata editor for audio files.
         additional:
           scoop: extras/mp3tag
+
+  - category: CLI software
+    apps:
+      - name: ImageMagick
+        link: https://imagemagick.org/index.php
+        logo: https://imagemagick.org/image/wand.ico
+        description: >-
+          ImageMagick is a free, open-source software suite, used for editing and manipulating digital images.
+        additional:
+          scoop: main/imagemagick
+
+      - name: FFmpeg
+        link: https://www.ffmpeg.org/
+        logo: https://www.ffmpeg.org/favicon.ico
+        description: >-
+          A complete, cross-platform solution to record, convert and stream audio and video.
+        additional:
+          scoop: main/ffmpeg
+
+      - name: yt-dlp
+        link: https://github.com/yt-dlp/yt-dlp
+        logo: https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0
+        description: >-
+          yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
+        additional:
+          scoop: main/yt-dlp
+
 
   - category: Other software
     apps:
@@ -553,6 +603,14 @@ apps:
             - name: NNM Club
               link: https://nnmclub.to/forum/viewtopic.php?t=1629099
               logo: https://nnmclub.to/favicon.ico
+
+      - name: Obsidian
+        link: https://obsidian.md/
+        logo: https://obsidian.md/favicon.ico
+        description: >-
+          Powerful knowledge base that works on top of a local folder of plain text Markdown files.
+        additional:
+          scoop: extras/obsidian
 
   - category: Powershell modules
     apps:
