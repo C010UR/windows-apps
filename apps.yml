@@ -48,6 +48,11 @@ apps:
           (gamepad, joystick, steering wheel, pedals, etc.) 
           to function on your PC as an Xbox 360 controller.
 
+      - name: Minecraft Legacy Launcher
+        link: https://llaun.ch/en
+        logo: https://llaun.ch/favicon.svg
+        description: Minecraft Launcher.
+
   - category: Programming
     apps:
       - name: Git
@@ -105,6 +110,16 @@ apps:
         additional:
           scoop: main/mysql-workbench
 
+      - name: HeidiSQL
+        link: https://www.heidisql.com/
+        logo: https://www.heidisql.com/favicon.ico
+        description: >-
+          HeidiSQL is a free and open-source administration tool
+          for MariaDB, MySQL, as well as Microsoft SQL Server,
+          PostgreSQL and SQLite.
+        additional:
+          scoop: extras/heidisql
+
       - name: GNU Make
         link: https://www.gnu.org/software/make
         logo: https://www.gnu.org/graphics/heckert_gnu.transp.small.png
@@ -135,6 +150,67 @@ apps:
           Docker is a set of platform as a service products that
           use OS-level virtualization to deliver software in
           packages called containers.
+
+      - name: StarUML
+        link: https://staruml.io
+        logo: https://staruml.io/image/staruml_logo.png
+        description: A sophisticated software modeler for agile and concise modeling.
+
+      - name: MSYS2
+        link: https://www.msys2.org
+        logo: https://www.msys2.org/logo.png
+        description: >-
+          MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, 
+          installing and running native Windows software.
+
+      - name: Postman
+        link: https://www.postman.com/
+        logo: https://www.postman.com/_ar-assets/images/favicon-1-48.png
+        description: >-
+          Postman is an API platform for developers.
+        additional:
+          scoop: extras/postman
+
+      - name: DevToys
+        link: https://devtoys.app/
+        logo: https://devtoys.app/img/hero-logo.png
+        description: >-
+          DevToys is a Swiss Army knife for developers for Windows.
+          DevToys helps in daily tasks like formatting JSON, comparing text,
+          testing RegExp.
+        additional:
+          scoop: nonportable/devtoys-np
+          links:
+            - name: Microsoft Store
+              link: https://apps.microsoft.com/store/detail/devtoys/9PGCV4V3BK4W
+              logo: https://apps.microsoft.com/store/images/logo-64x64.png
+          
+      - name: Python
+        link: https://www.python.org/
+        logo: https://www.python.org/static/favicon.ico
+        description: >-
+          Python is a high-level, general-purpose programming language.
+        additional:
+          scoop: main/python
+
+      - name: PHP
+        link: https://www.php.net/
+        logo: https://www.php.net/images/logos/php-logo-white.svg
+        description: >-
+          PHP is a general-purpose scripting language geared towards web
+          development.
+        additional:
+          scoop: main/php
+
+      - name: Symfony CLI
+        link: https://symfony.com/
+        logo: https://symfony.com/logos/symfony_white_03.png
+        description: >-
+          Symfony is a free and open-source PHP web application framework
+          and a set of reusable PHP component libraries.
+        additional:
+          scoop: main/symfony-cli
+
 
   - category: Network
     apps:
@@ -190,6 +266,26 @@ apps:
           specifically for gamers.
         additional:
           scoop: extras/opera-gx
+
+  - category: Social Media
+    apps:
+      - name: Slack
+        link: https://slack.com/
+        logo: https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png
+        description: >-
+          Slack is a new way to communicate with your team. It's faster,
+          better organized, and more secure than email.
+        additional:
+          scoop: extras/slack
+      
+      - name: Telegram Desktop
+        link: https://telegram.org/
+        logo: https://telegram.org/img/website_icon.svg
+        description: >-
+          Telegram lets you access your chats from multiple devices. Fast.
+          Telegram delivers messages faster than any other application.
+        additional:
+          scoop: extras/telegram
 
   - category: Drivers
     apps:
@@ -261,9 +357,50 @@ apps:
           so you can personalize performance to your taste. AMD provides the
           AMD Ryzen Master utility to access this powerful advantage.
 
+      - name: "AMD Software: Adrenalin Edition"
+        link: https://www.amd.com/en/technologies/software
+        logo: https://www.svgrepo.com/show/303321/ryzen-logo.svg # non-origin icon
+        description: >-
+          Software for AMD GPUs and CPUs.
+
       - name: Geforce Experience
         link: https://www.nvidia.com/ru-ru/geforce/geforce-experience
         logo: https://www.nvidia.com/favicon.ico
+        description: >-
+          Software for Nvidia GPUs.
+
+      - name: ObinsKit
+        link: https://www.hexcore.xyz/obinskit
+        logo: https://www.hexcore.xyz/images/obinskit/icon.png
+        description: >-
+          Software for Anne 2 Pro keyboard.
+      
+      - name: Logitech G Hub
+        link: https://www.logitechg.com/en-us/innovation/g-hub.html
+        logo: https://www.logitechg.com/etc.clientlibs/gaming/clientlibs/gaming-replatform/resources/images/favicon.ico
+        description: >-
+          Software for Logitech devices.
+      
+      - name: Aura Creator
+        link: https://www.asus.com/campaign/aura/us/Aura-creator.php
+        logo: https://www.asus.com/campaign/aura/img/favicon.ico
+        description: >-
+          RGB Controls for Asus devives.
+
+
+      - name: RGB Fusion 2.0
+        link: https://www.gigabyte.com/MicroSite/512/rgb2.html
+        logo: https://www.gigabyte.com/FileUpload/Global/MicroSite/512/images/rgb2-logo.png
+        description: >-
+          RGB Controls for Gigabyte devives.
+
+      - name: DisplayCAL
+        link: https://displaycal.net/
+        logo: https://displaycal.net/theme/icon-reflection.png
+        description: >-
+          Display Calibration and Characterization software.
+        additional:
+          scoop: extras/displaycal
 
   - category: Optimizers / Tweakers
     apps:
@@ -343,6 +480,32 @@ apps:
             - name: NNM Club
               link: https://nnmclub.to/forum/viewtopic.php?t=1634644
               logo: https://nnmclub.to/favicon.ico
+
+  - category: Media
+    apps:
+      - name: K-Lite Codec Pack
+        link: https://codecguide.com/download_kl.htm
+        logo: https://codecguide.com/mpc_logo.png
+        descrition: >-
+          Video Player.
+        additional:
+          scoop: nonportable/k-lite-codec-pack-full-np
+
+      - name: AIMP
+        link: https://www.aimp.ru/
+        logo: https://www.aimp.ru/v2/theme/images/header-logo.svg
+        description: >-
+          Music Player.
+        additional:
+          scoop: extras/aimp
+          
+      - name: MP3Tag
+        link: https://www.mp3tag.de/en/
+        logo: https://www.mp3tag.de/images/logo.png
+        description: >-
+          Metadata editor for audio files.
+        additional:
+          scoop: extras/mp3tag
 
   - category: Other software
     apps:
@@ -443,6 +606,38 @@ apps:
           DockerCompletion for PowerShell.
         additional:
           scoop: extras/dockercompletion
+
+      - name: Resilio
+        link: https://www.resilio.com/
+        logo: https://www.resilio.com/favicon.ico
+        description: >-
+          Resilio Sync by Resilio, Inc. is a proprietary peer-to-peer file synchronization tool.
+        additional:
+          scoop: nonportable/resilio-sync-np
+          
+      - name: WizTree
+        link: https://diskanalyzer.com/
+        logo: https://antibodysoftware-17031.kxcdn.com/images/wiztree445x.png
+        description: >-
+          WizTree is the fastest disk space analyzer available for Windows
+        additional:
+          scoop: extras/wiztree
+          
+      - name: TeraCopy
+        link: https://www.codesector.com/teracopy
+        logo: https://www.codesector.com/img/icon.svg
+        description: >-
+          TeraCopy is a free utility designed to copy files faster and more secure.
+        additional:
+          scoop: nonportable/teracopy-np
+          
+      - name: WireGuard
+        link: https://www.wireguard.com/
+        logo: https://www.wireguard.com/img/icons/favicon-512.png
+        description: >-
+          WireGuard securely encapsulates IP packets over UDP.
+        additional:
+          scoop: nonportable/wireguard-np
 
   - category: Nerd Fonts
     link: https://www.nerdfonts.com
