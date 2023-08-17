@@ -34,6 +34,10 @@ Discord is an American VoIP and instant messaging social platform.
 scoop install extras/discord
 ```
 
+### [<img src="https://llaun.ch/favicon.svg" alt="" style="height: 1rem;" /> Minecraft Legacy Launcher](https://llaun.ch/en)
+
+Minecraft Launcher.
+
 ### [<img src="https://store.steampowered.com/favicon.ico" alt="" style="height: 1rem;" /> Steam](https://store.steampowered.com)
 
 Steam is a video game digital distribution service and storefront from Valve.
@@ -50,6 +54,48 @@ pgAdmin is the most popular and feature rich Open  Source administration and dev
 
 ```pwsh
 scoop install nonportable/pgadmin4-np
+```
+
+### [<img src="https://devtoys.app/img/hero-logo.png" alt="" style="height: 1rem;" /> DevToys](https://devtoys.app/)
+
+DevToys is a Swiss Army knife for developers for Windows. DevToys helps in daily tasks like formatting JSON, comparing text, testing RegExp.
+
+* [<img src="https://apps.microsoft.com/store/images/logo-64x64.png" alt="" style="height: 1rem;" /> Microsoft Store](https://apps.microsoft.com/store/detail/devtoys/9PGCV4V3BK4W)
+
+```pwsh
+scoop install nonportable/devtoys-np
+```
+
+### [<img src="https://symfony.com/logos/symfony_white_03.png" alt="" style="height: 1rem;" /> Symfony CLI](https://symfony.com/)
+
+Symfony is a free and open-source PHP web application framework and a set of reusable PHP component libraries.
+
+```pwsh
+scoop install main/symfony-cli
+```
+
+### [<img src="https://www.python.org/static/favicon.ico" alt="" style="height: 1rem;" /> Python](https://www.python.org/)
+
+Python is a high-level, general-purpose programming language.
+
+```pwsh
+scoop install main/python
+```
+
+### [<img src="https://www.php.net/images/logos/php-logo-white.svg" alt="" style="height: 1rem;" /> PHP](https://www.php.net/)
+
+PHP is a general-purpose scripting language geared towards web development.
+
+```pwsh
+scoop install main/php
+```
+
+### [<img src="https://nodejs.org/favicon.ico" alt="" style="height: 1rem;" /> Node.js](https://nodejs.org/en)
+
+An asynchronous event driven JavaScript runtime designed to build scalable network applications.
+
+```pwsh
+scoop install main/nodejs
 ```
 
 ### [<img src="https://www.svgrepo.com/show/373848/mysql.svg" alt="" style="height: 1rem;" /> MySQL Workbench](https://dev.mysql.com/downloads/workbench)
@@ -76,12 +122,36 @@ Git is a distributed version control  system that tracks changes in any set of  
 scoop install git
 ```
 
+### [<img src="https://www.postman.com/_ar-assets/images/favicon-1-48.png" alt="" style="height: 1rem;" /> Postman](https://www.postman.com/)
+
+Postman is an API platform for developers.
+
+```pwsh
+scoop install extras/postman
+```
+
 ### [<img src="https://notepad-plus-plus.org/images/logo.svg" alt="" style="height: 1rem;" /> Notepad++](https://notepad-plus-plus.org/downloads)
 
 Notepad++ is a free (as in "free speech" and also  as in "free beer") source code editor and Notepad  replacement that supports several languages.
 
 ```pwsh
 scoop install extras/notepadplusplus
+```
+
+### [<img src="https://www.heidisql.com/favicon.ico" alt="" style="height: 1rem;" /> HeidiSQL](https://www.heidisql.com/)
+
+HeidiSQL is a free and open-source administration tool for MariaDB, MySQL, as well as Microsoft SQL Server, PostgreSQL and SQLite.
+
+```pwsh
+scoop install extras/heidisql
+```
+
+### [<img src="https://app.diagrams.net/images/favicon-32x32.png" alt="" style="height: 1rem;" /> draw.io](https://app.diagrams.net/)
+
+draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+
+```pwsh
+scoop install extras/draw.io
 ```
 
 ### [<img src="https://www.codeblocks.org/images/logo160.png" alt="" style="height: 1rem;" /> Code::Blocks](http://www.codeblocks.org)
@@ -95,6 +165,14 @@ scoop install extras/codeblocks
 ### [<img src="https://www.docker.com/wp-content/uploads/2023/04/cropped-Docker-favicon-192x192.png" alt="" style="height: 1rem;" /> Docker](https://www.docker.com)
 
 Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
+
+### [<img src="https://www.msys2.org/logo.png" alt="" style="height: 1rem;" /> MSYS2](https://www.msys2.org)
+
+MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building,  installing and running native Windows software.
+
+### [<img src="https://staruml.io/image/staruml_logo.png" alt="" style="height: 1rem;" /> StarUML](https://staruml.io)
+
+A sophisticated software modeler for agile and concise modeling.
 
 ### [<img src="https://visualstudio.microsoft.com/wp-content/uploads/2022/11/vs-icon.svg" alt="" style="height: 1rem;" /> Visual Studio](https://visualstudio.microsoft.com)
 
@@ -154,6 +232,24 @@ Mozilla Firefox, or simply Firefox, is a free and  open-source web browser devel
 scoop install extras/firefox
 ```
 
+## Social Media
+
+### [<img src="https://telegram.org/img/website_icon.svg" alt="" style="height: 1rem;" /> Telegram Desktop](https://telegram.org/)
+
+Telegram lets you access your chats from multiple devices. Fast. Telegram delivers messages faster than any other application.
+
+```pwsh
+scoop install extras/telegram
+```
+
+### [<img src="https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png" alt="" style="height: 1rem;" /> Slack](https://slack.com/)
+
+Slack is a new way to communicate with your team. It's faster, better organized, and more secure than email.
+
+```pwsh
+scoop install extras/slack
+```
+
 ## Drivers
 
 ### [<img src="https://tpucdn.com/download/images/133_icon-v1685099743626.png" alt="" style="height: 1rem;" /> NVCleanstall](https://www.techpowerup.com/nvcleanstall)
@@ -162,6 +258,14 @@ NVCleanstall lets you customize the NVIDIA GeForce Driver package by removing co
 
 ```pwsh
 scoop install extras/nvcleanstall
+```
+
+### [<img src="https://displaycal.net/theme/icon-reflection.png" alt="" style="height: 1rem;" /> DisplayCAL](https://displaycal.net/)
+
+Display Calibration and Characterization software.
+
+```pwsh
+scoop install extras/displaycal
 ```
 
 ### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo Driver Updater](https://www.ashampoo.com/en-us/driver-updater)
@@ -174,15 +278,37 @@ Ashampoo Driver Updater provides updates for a wide variety of components and de
 
 The .NET Framework is a proprietary software framework developed by Microsoft that runs primarily on Microsoft Windows.
 
+### [<img src="https://www.svgrepo.com/show/303321/ryzen-logo.svg" alt="" style="height: 1rem;" /> AMD Software: Adrenalin Edition](https://www.amd.com/en/technologies/software)
+
+Software for AMD GPUs and CPUs.
+
+### [<img src="https://www.asus.com/campaign/aura/img/favicon.ico" alt="" style="height: 1rem;" /> Aura Creator](https://www.asus.com/campaign/aura/us/Aura-creator.php)
+
+RGB Controls for Asus devives.
+
 ### [<img src="https://www.microsoft.com/favicon.ico" alt="" style="height: 1rem;" /> DirectX](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 
 Microsoft DirectX is a collection of application programming interfaces for handling tasks related to multimedia, especially game programming and video, on Microsoft platforms. Originally, the names of these APIs all began with "Direct", such as Direct3D, DirectDraw, DirectMusic, DirectPlay, DirectSound, and so forth.
 
 ### [<img src="https://www.nvidia.com/favicon.ico" alt="" style="height: 1rem;" /> Geforce Experience](https://www.nvidia.com/ru-ru/geforce/geforce-experience)
 
+Software for Nvidia GPUs.
+
 ### [<img src="https://www.oracle.com/asset/web/favicons/favicon-192.png" alt="" style="height: 1rem;" /> Java](https://www.java.com/en/download/manual.jsp)
 
 Microsoft DirectX is a collection of application programming interfaces for handling tasks related to multimedia, especially game programming and video, on Microsoft platforms. Originally, the names of these APIs all began with "Direct", such as Direct3D, DirectDraw, DirectMusic, DirectPlay, DirectSound, and so forth.
+
+### [<img src="https://www.logitechg.com/etc.clientlibs/gaming/clientlibs/gaming-replatform/resources/images/favicon.ico" alt="" style="height: 1rem;" /> Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
+
+Software for Logitech devices.
+
+### [<img src="https://www.hexcore.xyz/images/obinskit/icon.png" alt="" style="height: 1rem;" /> ObinsKit](https://www.hexcore.xyz/obinskit)
+
+Software for Anne 2 Pro keyboard.
+
+### [<img src="https://www.gigabyte.com/FileUpload/Global/MicroSite/512/images/rgb2-logo.png" alt="" style="height: 1rem;" /> RGB Fusion 2.0](https://www.gigabyte.com/MicroSite/512/rgb2.html)
+
+RGB Controls for Gigabyte devives.
 
 ### [<img src="https://www.svgrepo.com/show/303321/ryzen-logo.svg" alt="" style="height: 1rem;" /> Ryzen Master](https://www.amd.com/en/technologies/ryzen-master)
 
@@ -228,6 +354,14 @@ Lightweight real-time memory management application to monitor and clean system 
 scoop install extras/memreduct
 ```
 
+### [<img src="https://www.bleachbit.org/sites/default/files/zen_classic_logo_0.png" alt="" style="height: 1rem;" /> BleachBit](https://www.bleachbit.org/)
+
+BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer.
+
+```pwsh
+scoop install extras/bleachbit
+```
+
 ### [<img src="https://www.ashampoo.com/favicon.ico" alt="" style="height: 1rem;" /> Ashampoo WinOptimizer](https://www.ashampoo.com/en-us/winoptimizer-26)
 
 Is your Windows PC slow? Ashampoo WinOptimizer speeds up your PC, removes junk files, and fixes common Windows issues.
@@ -248,6 +382,56 @@ Easy Context Menu (ECM) lets you add a variety of useful commands and tweaks to 
 
 Ultimate Windows Tweaker is like a TweakUI for Windows 10.
 
+## Media
+
+### [<img src="https://codecguide.com/mpc_logo.png" alt="" style="height: 1rem;" /> K-Lite Codec Pack](https://codecguide.com/download_kl.htm)
+
+```pwsh
+scoop install nonportable/k-lite-codec-pack-full-np
+```
+
+### [<img src="https://www.mp3tag.de/images/logo.png" alt="" style="height: 1rem;" /> MP3Tag](https://www.mp3tag.de/en/)
+
+Metadata editor for audio files.
+
+```pwsh
+scoop install extras/mp3tag
+```
+
+### [<img src="https://www.aimp.ru/v2/theme/images/header-logo.svg" alt="" style="height: 1rem;" /> AIMP](https://www.aimp.ru/)
+
+Music Player.
+
+```pwsh
+scoop install extras/aimp
+```
+
+## CLI software
+
+### [<img src="https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0" alt="" style="height: 1rem;" /> yt-dlp](https://github.com/yt-dlp/yt-dlp)
+
+yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
+
+```pwsh
+scoop install main/yt-dlp
+```
+
+### [<img src="https://imagemagick.org/image/wand.ico" alt="" style="height: 1rem;" /> ImageMagick](https://imagemagick.org/index.php)
+
+ImageMagick is a free, open-source software suite, used for editing and manipulating digital images.
+
+```pwsh
+scoop install main/imagemagick
+```
+
+### [<img src="https://www.ffmpeg.org/favicon.ico" alt="" style="height: 1rem;" /> FFmpeg](https://www.ffmpeg.org/)
+
+A complete, cross-platform solution to record, convert and stream audio and video.
+
+```pwsh
+scoop install main/ffmpeg
+```
+
 ## Other software
 
 ### [<img src="https://www.7-zip.org/7ziplogo.png" alt="" style="height: 1rem;" /> 7-zip](https://www.7-zip.org/download.html)
@@ -256,6 +440,14 @@ Ultimate Windows Tweaker is like a TweakUI for Windows 10.
 
 ```pwsh
 scoop install main/7zip
+```
+
+### [<img src="https://obsidian.md/favicon.ico" alt="" style="height: 1rem;" /> Obsidian](https://obsidian.md/)
+
+Powerful knowledge base that works on top of a local folder of plain text Markdown files.
+
+```pwsh
+scoop install extras/obsidian
 ```
 
 ### [<img src="https://www.vmware.com/favicon.ico" alt="" style="height: 1rem;" /> VMware](https://www.vmware.com/products/workstation-player.html)
@@ -278,12 +470,44 @@ RoboForm is a password manager, a class of software that allows users to have se
 
 ## Powershell modules
 
+### [<img src="https://www.wireguard.com/img/icons/favicon-512.png" alt="" style="height: 1rem;" /> WireGuard](https://www.wireguard.com/)
+
+WireGuard securely encapsulates IP packets over UDP.
+
+```pwsh
+scoop install nonportable/wireguard-np
+```
+
+### [<img src="https://www.codesector.com/img/icon.svg" alt="" style="height: 1rem;" /> TeraCopy](https://www.codesector.com/teracopy)
+
+TeraCopy is a free utility designed to copy files faster and more secure.
+
+```pwsh
+scoop install nonportable/teracopy-np
+```
+
+### [<img src="https://www.resilio.com/favicon.ico" alt="" style="height: 1rem;" /> Resilio](https://www.resilio.com/)
+
+Resilio Sync by Resilio, Inc. is a proprietary peer-to-peer file synchronization tool.
+
+```pwsh
+scoop install nonportable/resilio-sync-np
+```
+
 ### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Oh My Posh](https://ohmyposh.dev)
 
 A prompt theme engine for any shell.
 
 ```pwsh
 scoop install main/oh-my-posh
+```
+
+### [<img src="https://antibodysoftware-17031.kxcdn.com/images/wiztree445x.png" alt="" style="height: 1rem;" /> WizTree](https://diskanalyzer.com/)
+
+WizTree is the fastest disk space analyzer available for Windows
+
+```pwsh
+scoop install extras/wiztree
 ```
 
 ### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> Terminal Icons](https://github.com/devblackops/Terminal-Icons)
