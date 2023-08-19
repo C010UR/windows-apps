@@ -434,12 +434,44 @@ scoop install main/ffmpeg
 
 ## Other software
 
+### [<img src="https://www.wireguard.com/img/icons/favicon-512.png" alt="" style="height: 1rem;" /> WireGuard](https://www.wireguard.com/)
+
+WireGuard securely encapsulates IP packets over UDP.
+
+```pwsh
+scoop install nonportable/wireguard-np
+```
+
+### [<img src="https://www.codesector.com/img/icon.svg" alt="" style="height: 1rem;" /> TeraCopy](https://www.codesector.com/teracopy)
+
+TeraCopy is a free utility designed to copy files faster and more secure.
+
+```pwsh
+scoop install nonportable/teracopy-np
+```
+
+### [<img src="https://www.resilio.com/favicon.ico" alt="" style="height: 1rem;" /> Resilio](https://www.resilio.com/)
+
+Resilio Sync by Resilio, Inc. is a proprietary peer-to-peer file synchronization tool.
+
+```pwsh
+scoop install nonportable/resilio-sync-np
+```
+
 ### [<img src="https://www.7-zip.org/7ziplogo.png" alt="" style="height: 1rem;" /> 7-zip](https://www.7-zip.org/download.html)
 
 7-Zip is a free and open-source file archiver, a utility used to  place groups of files within compressed containers known as "archives".
 
 ```pwsh
 scoop install main/7zip
+```
+
+### [<img src="https://antibodysoftware-17031.kxcdn.com/images/wiztree445x.png" alt="" style="height: 1rem;" /> WizTree](https://diskanalyzer.com/)
+
+WizTree is the fastest disk space analyzer available for Windows
+
+```pwsh
+scoop install extras/wiztree
 ```
 
 ### [<img src="https://obsidian.md/favicon.ico" alt="" style="height: 1rem;" /> Obsidian](https://obsidian.md/)
@@ -470,44 +502,12 @@ RoboForm is a password manager, a class of software that allows users to have se
 
 ## Powershell modules
 
-### [<img src="https://www.wireguard.com/img/icons/favicon-512.png" alt="" style="height: 1rem;" /> WireGuard](https://www.wireguard.com/)
-
-WireGuard securely encapsulates IP packets over UDP.
-
-```pwsh
-scoop install nonportable/wireguard-np
-```
-
-### [<img src="https://www.codesector.com/img/icon.svg" alt="" style="height: 1rem;" /> TeraCopy](https://www.codesector.com/teracopy)
-
-TeraCopy is a free utility designed to copy files faster and more secure.
-
-```pwsh
-scoop install nonportable/teracopy-np
-```
-
-### [<img src="https://www.resilio.com/favicon.ico" alt="" style="height: 1rem;" /> Resilio](https://www.resilio.com/)
-
-Resilio Sync by Resilio, Inc. is a proprietary peer-to-peer file synchronization tool.
-
-```pwsh
-scoop install nonportable/resilio-sync-np
-```
-
 ### [<img src="https://ohmyposh.dev/img/logo.svg" alt="" style="height: 1rem;" /> Oh My Posh](https://ohmyposh.dev)
 
 A prompt theme engine for any shell.
 
 ```pwsh
 scoop install main/oh-my-posh
-```
-
-### [<img src="https://antibodysoftware-17031.kxcdn.com/images/wiztree445x.png" alt="" style="height: 1rem;" /> WizTree](https://diskanalyzer.com/)
-
-WizTree is the fastest disk space analyzer available for Windows
-
-```pwsh
-scoop install extras/wiztree
 ```
 
 ### [<img src="https://learn.microsoft.com/en-us/powershell/media/index/ps_black_128.svg" alt="" style="height: 1rem;" /> Terminal Icons](https://github.com/devblackops/Terminal-Icons)
