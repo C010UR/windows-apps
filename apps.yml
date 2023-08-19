@@ -612,6 +612,38 @@ apps:
         additional:
           scoop: extras/obsidian
 
+      - name: Resilio
+        link: https://www.resilio.com/
+        logo: https://www.resilio.com/favicon.ico
+        description: >-
+          Resilio Sync by Resilio, Inc. is a proprietary peer-to-peer file synchronization tool.
+        additional:
+          scoop: nonportable/resilio-sync-np
+          
+      - name: WizTree
+        link: https://diskanalyzer.com/
+        logo: https://antibodysoftware-17031.kxcdn.com/images/wiztree445x.png
+        description: >-
+          WizTree is the fastest disk space analyzer available for Windows
+        additional:
+          scoop: extras/wiztree
+          
+      - name: TeraCopy
+        link: https://www.codesector.com/teracopy
+        logo: https://www.codesector.com/img/icon.svg
+        description: >-
+          TeraCopy is a free utility designed to copy files faster and more secure.
+        additional:
+          scoop: nonportable/teracopy-np
+          
+      - name: WireGuard
+        link: https://www.wireguard.com/
+        logo: https://www.wireguard.com/img/icons/favicon-512.png
+        description: >-
+          WireGuard securely encapsulates IP packets over UDP.
+        additional:
+          scoop: nonportable/wireguard-np
+
   - category: Powershell modules
     apps:
       - name: Oh My Posh
@@ -664,38 +696,6 @@ apps:
           DockerCompletion for PowerShell.
         additional:
           scoop: extras/dockercompletion
-
-      - name: Resilio
-        link: https://www.resilio.com/
-        logo: https://www.resilio.com/favicon.ico
-        description: >-
-          Resilio Sync by Resilio, Inc. is a proprietary peer-to-peer file synchronization tool.
-        additional:
-          scoop: nonportable/resilio-sync-np
-          
-      - name: WizTree
-        link: https://diskanalyzer.com/
-        logo: https://antibodysoftware-17031.kxcdn.com/images/wiztree445x.png
-        description: >-
-          WizTree is the fastest disk space analyzer available for Windows
-        additional:
-          scoop: extras/wiztree
-          
-      - name: TeraCopy
-        link: https://www.codesector.com/teracopy
-        logo: https://www.codesector.com/img/icon.svg
-        description: >-
-          TeraCopy is a free utility designed to copy files faster and more secure.
-        additional:
-          scoop: nonportable/teracopy-np
-          
-      - name: WireGuard
-        link: https://www.wireguard.com/
-        logo: https://www.wireguard.com/img/icons/favicon-512.png
-        description: >-
-          WireGuard securely encapsulates IP packets over UDP.
-        additional:
-          scoop: nonportable/wireguard-np
 
   - category: Nerd Fonts
     link: https://www.nerdfonts.com
