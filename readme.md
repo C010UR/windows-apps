@@ -154,6 +154,14 @@ draw.io is free online diagram software for making flowcharts, process diagrams,
 scoop install extras/draw.io
 ```
 
+### [<img src="https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png" alt="" style="height: 1rem;" /> DBeaver](https://dbeaver.io/)
+
+Database tool for developers, SQL programmers, database administrators and analysts
+
+```pwsh
+scoop install extras/dbeaver
+```
+
 ### [<img src="https://www.codeblocks.org/images/logo160.png" alt="" style="height: 1rem;" /> Code::Blocks](http://www.codeblocks.org)
 
 Code::Blocks is a free, open-source cross-platform IDE that supports multiple compilers including GCC,  Clang and Visual C++.
@@ -182,7 +190,7 @@ Visual Studio is an integrated development environment from Microsoft.
 
 Visual Studio Code, also commonly referred to as  VS Code, is a source-code editor made by Microsoft  with the Electron Framework.
 
-## Network
+## Networking
 
 ### [<img src="https://ngrok.com/static/img/favicon.png" alt="" style="height: 1rem;" /> ngrok](https://ngrok.com)
 
@@ -414,6 +422,14 @@ yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
 
 ```pwsh
 scoop install main/yt-dlp
+```
+
+### [<img src="https://www.opus-codec.org/assets/img/opus-logo.svg" alt="" style="height: 1rem;" /> opus-tools](https://www.opus-codec.org/)
+
+Command-line utilities to encode, inspect, and decode .opus files.
+
+```pwsh
+scoop install main/opus-tools
 ```
 
 ### [<img src="https://imagemagick.org/image/wand.ico" alt="" style="height: 1rem;" /> ImageMagick](https://imagemagick.org/index.php)
