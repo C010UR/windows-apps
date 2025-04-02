@@ -2,7 +2,7 @@
 
 I tried to use [scoop](https://scoop.sh) first,  then [microsoft store](https://apps.microsoft.com/store/apps),  if application is not available in scoop, then provide just a  link or command, if application is not available in either  application providers.
 
-## [<img src="https://avatars.githubusercontent.com/u/16618068" alt="" style="height: 1.125rem;" /> Scoop](https://scoop.sh) installation
+## [<img src="https://avatars.githubusercontent.com/u/16618068" alt="" style="height: 1rem;" /> Scoop](https://scoop.sh) installation
 
 ```pwsh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm get.scoop.sh | iex; scoop install git
