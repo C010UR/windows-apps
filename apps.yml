@@ -120,6 +120,14 @@ apps:
         additional:
           scoop: extras/heidisql
 
+      - name: DBeaver
+        link: https://dbeaver.io/
+        logo: https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png
+        description: >-
+          Database tool for developers, SQL programmers, database administrators and analysts
+        additional:
+          scoop: extras/dbeaver
+
       - name: GNU Make
         link: https://www.gnu.org/software/make
         logo: https://www.gnu.org/graphics/heckert_gnu.transp.small.png
@@ -227,7 +235,7 @@ apps:
         additional:
           scoop: main/nodejs
 
-  - category: Network
+  - category: Networking
     apps:
       - name: ngrok
         link: https://ngrok.com
@@ -556,6 +564,13 @@ apps:
         additional:
           scoop: main/yt-dlp
 
+      - name: opus-tools
+        link: https://www.opus-codec.org/
+        logo: https://www.opus-codec.org/assets/img/opus-logo.svg
+        description: >-
+          Command-line utilities to encode, inspect, and decode .opus files.
+        additional:
+          scoop: main/opus-tools
 
   - category: Other software
     apps:
