@@ -162,7 +162,7 @@ $md += "`n`n"
 
 # Scoop installation
 $yml.scoopInstallation.name = "Scoop"
-$md += "## $(Format-Link $yml.scoopInstallation -imageSize 1.125) installation"
+$md += "## $(Format-Link $yml.scoopInstallation) installation"
 $md += "`n`n"
 $md += Format-CodeBlock $yml.scoopInstallation.command
 $md += "`n`n"
